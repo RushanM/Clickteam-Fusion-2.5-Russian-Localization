@@ -1,4 +1,4 @@
-# Русский язык для Clickteam Fusion 2.5
+# Русская локализация Clickteam Fusion 2.5
 
 <div align="center">
     <img title="" src="https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/blob/main/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/screenshot.png?raw=true">
@@ -6,7 +6,7 @@
     <br>
 </div>
 
-Русский язык для программы [Clickteam Fusion 2.5](https://www.clickteam.com/clickteam-fusion-2-5) с переводом её интерфейса, руководства и некоторых расширений.
+Русская локализация для игрового движка [Clickteam Fusion 2.5](https://www.clickteam.com/clickteam-fusion-2-5) с переводом её интерфейса, руководства и некоторых расширений.
 
 ## Скачивание и установка
 

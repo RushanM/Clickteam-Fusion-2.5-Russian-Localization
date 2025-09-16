@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+
+<head>
+<title>Расширение контроллера движений Clickteam</title>
+
+
+<link rel="stylesheet" href="../style_default.css" type="text/css">
+
+</head>
+<body>
+
+<h1>Расширение контроллера движений Clickteam</h1>
+<p class="main_content_smaller">
+Версия 1.1 от сентября 2008
+<p>
+
+<hr>
+
+<table widht="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+ <td width="32"><img src="../images/extension-clickteam-icon.png" alt="Значок расширения" width="32" height="32"></td>
+ <td><h2>Контроллер движений Clickteam (КДК)</h2></td>
+</tr>
+</table>
+
+
+
+
+<p class="main_content">
+Контроллер предназначен для работы с различными типами движений, каждое из которых имеет отдельное подменю для действий и выражений. Этим расширением контролируются следующие движения:
+</p>
+
+<ul class="main_content">
+    <li><a href="#circular">круговое движение,</a></li>
+    <li><a href="#drag-and-drop">движение перетаскивания,</a></li>
+    <li><a href="#invaders">движение захватчиков,</a></li>
+    <li><a href="#presentation">движение презентации,</a></li>
+    <li><a href="#regular-polygon">движение по правильному многоугольнику,</a></li>
+    <li><a href="#simple-ellipse">движение по простому эллипсу,</a></li>
+    <li><a href="#sinewave">синусоидальное движение,</a></li>
+    <li><a href="#spaceship">движение космического корабля,</a></li>
+    <li><a href="#vector">векторное движение.</a></li>
+</ul>
+
+<p class="main_content"> Действия движений сначала должны знать, каким объектом управлять, поэтому объект сначала следует выбрать, прежде чем применять какие-либо действия, специфичные для движений. Примечание: движение презентации не требует выбранного объекта, оно находит его на сцене автоматически. Выражения работают немного иначе: в качестве параметра требуется фиксированное значение объекта; его можно получить из меню выражений большинства объектов. Чтобы использовать последний установленный с помощью действий «Установить объект» объект, введите ноль в выражении фиксированного значения. <br>
+  <br />
+  Расширение также предоставляет дополнительные выражения для расчёта расстояния 
+  и угла между двумя объектами или точками, а также выражения для преобразования 
+  между градусами в углах и направлениями Multimedia Fusion. </p>
+
+<!-- круговое движение -->
+<a name="circular"><h2>Круговое движение</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-circular.png" alt="Изображение меню действий кругового движения для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-circular.png" alt="Изображение меню выражений кругового движения для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым круговым движением.</p>
+
+<!-- движение перетаскивания -->
+<a name="drag-and-drop"><h2>Движение перетаскивания</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-dragdrop.png" alt="Изображение меню действий движения перетаскивания для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-dragdrop.png" alt="Изображение меню выражений движения перетаскивания для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым движением перетаскивания.</p>
+
+<!-- движение захватчиков -->
+<a name="invaders"><h2>Движение захватчиков</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-invaders.png" alt="Изображение меню действий движения захватчиков для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-invaders.png" alt="Изображение меню выражений движения захватчиков для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым движением захватчиков.</p>
+<p class="main_content_smaller"><b>Примечание</b>: из-за ошибки, действие «Получить скорость» фактически возвращает скорость 101, и вам нужно передавать скорость 101 в действие «Установить скорость».</p>
+
+<!-- движение презентации -->
+<a name="presentation"><h2>Движение презентации</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-presentation.png" alt="Изображение меню действий движения презентации для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-presentation.png" alt="Изображение меню выражений движения презентации для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым движением презентации.</p>
+
+
+<!-- Regular Polygon movement -->
+<a name="regular-polygon"><h2>Движение по правильному многоугольнику</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-regpoly.png" alt="Изображение меню действий движения по правильному многоугольнику для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-regpoly.png" alt="Изображение меню выражений движения по правильному многоугольнику для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым движением по правильному многоугольнику.</p>
+
+<!-- Simple Ellipse movement -->
+<a name="simple-ellipse"><h2>Движение по простому эллипсу</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-simellip.png" alt="Изображение меню действий движения по простому эллипсу для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-simellip.png" alt="Изображение меню выражений движения по простому эллипсу для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым движением по простому эллипсу.</p>
+
+<!-- Sinewave movement -->
+<a name="sinewave"><h2>Синусоидальное движение</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-sinewave.png" alt="Изображение меню действий синусоидального движения для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-sinewave.png" alt="Изображение меню выражений синусоидального движения для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым синусоидальным движением.</p>
+
+<!-- Spaceship movement -->
+<a name="spaceship"><h2>Движение космического корабля</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-spaceship.png" alt="Изображение меню действий движения космического корабля для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-spaceship.png" alt="Изображение меню выражений движения космического корабля для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым движением космического корабля.</p>
+
+<!-- Vector movement -->
+<a name="vector"><h2>Векторное движение</h2></a>
+<table cellpadding="0" border="0">
+<tr>
+    <td valign="top">
+        <img src="../images/extension-clickteam-actions-vector.png" alt="Изображение меню действий векторного движения для этого расширения">
+    </td>
+    <td valign="top">
+        <img src="../images/extension-clickteam-expressions-vector.png" alt="Изображение меню выражений векторного движения для этого расширения">
+    </td>
+</tr>
+</table>
+<p class="main_content_smaller">Снимок действий (слева) и выражений (справа), которые можно применить к объекту со включённым векторным движением.</p>
+
+<br /><br /><br />
+
+</body>
+</html>

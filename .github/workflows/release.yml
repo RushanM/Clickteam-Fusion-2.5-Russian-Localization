@@ -20,7 +20,9 @@ on:
 
 env:
   REPO_NAME: ${{ github.repository }}
-  BASE_DIR: ru-ru
+  COMMON_DIR: ru-ru/common
+  STRICT_DIR: ru-ru/strict
+  COMFORT_DIR: ru-ru/comfort
 
 jobs:
   release:
@@ -66,7 +68,7 @@ jobs:
           if [[ "${{ env.release_type }}" == "beta" ]]; then
             base_release_number=${{ env.next_release_number }}
             
-            # Поиск существующих бета-тегов для базовой релизной версии
+            # поиск существующих тегов бета-версий для базовой релизной версии
             existing_beta_tags=$(git tag --list "${base_release_number}-B*" )
             
             if [ -z "$existing_beta_tags" ]; then
@@ -149,7 +151,7 @@ jobs:
             echo "final_tag=${{ env.next_tag }}" >> $GITHUB_ENV
           fi
 
-      - name: Формирование названия релиза
+      - name: Формирование названия выпуска
         id: release-name
         run: |
           if [[ "${{ env.release_type }}" == "beta" ]]; then
@@ -164,25 +166,50 @@ jobs:
             release_name="${{ env.final_tag }}-й релиз"
           fi
           echo "release_name=$release_name" >> $GITHUB_ENV
-          echo "Название релиза: $release_name"
+          echo "Название выпуска: $release_name"
 
-      - name: Архивация ru-ru
+      - name: Создание временных каталогов
         run: |
-          if [[ "${{ env.release_type }}" == "beta" ]]; then
-            archive_name="Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip"
-          else
-            archive_name="Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip"
-          fi
-          echo "Создание архива: $archive_name"
-          zip -r "$archive_name" "$BASE_DIR"
+          mkdir -p temp/strict/ru-ru
+          mkdir -p temp/comfort/ru-ru
+
+      - name: Подготовка архива строгой локализации
+        run: |
+          # копирование содержимого strict
+          cp -r "$STRICT_DIR"/* temp/strict/ru-ru/
+          # копирование содержимого common
+          cp -r "$COMMON_DIR"/* temp/strict/ru-ru/
+
+      - name: Подготовка архива удобной локализации
+        run: |
+          # копирование содержимого comfort
+          cp -r "$COMFORT_DIR"/* temp/comfort/ru-ru/
+          # копирование содержимого common
+          cp -r "$COMMON_DIR"/* temp/comfort/ru-ru/
+
+      - name: Архивация вариантов
+        run: |
+          strict_archive="CF2.5_ru-RU_${{ env.final_tag }}_Strict.zip"
+          comfort_archive="CF2.5_ru-RU_${{ env.final_tag }}_Comfort.zip"
+          
+          echo "Создание архива строгой локализации: $strict_archive"
+          cd temp/strict && zip -r "../../$strict_archive" * && cd ../..
+
+          echo "Создание архива удобной локализации: $comfort_archive"
+          cd temp/comfort && zip -r "../../$comfort_archive" * && cd ../..
+          
+          echo "strict_archive=$strict_archive" >> $GITHUB_ENV
+          echo "comfort_archive=$comfort_archive" >> $GITHUB_ENV
 
       - name: Создание выпуска
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.final_tag }}
-          files: Fusion-2.5-Russian-Language-${{ env.final_tag }}.zip
+          files: |
+            ${{ env.strict_archive }}
+            ${{ env.comfort_archive }}
           name: "${{ env.release_name }}"
-          body: "Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск."
+          body: "Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск.\n\nДоступно два варианта локализации:\n* строгая (strict) — более строгий в соответствии со значением терминов перевод,\n* удобная (comfort) — более удобный для использования перевод."
           prerelease: ${{ env.release_type == 'beta' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
