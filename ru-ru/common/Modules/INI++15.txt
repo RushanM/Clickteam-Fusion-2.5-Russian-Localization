@@ -1,4 +1,4 @@
-{
+﻿{
     "version": 1,
     "lang": 1049,
     "general": {
@@ -76,7 +76,7 @@
         "Create folders for files if they do not exist?": "Создать папки для файлов, если они не существуют?",
         "CSV Array Import/Export (%1) to file %1, seperator %2": "Импортирование/экспортирование массива CSV (%1) в файл %1, разделитель: %2",
         "CSV Import/Export (%0) to file %1, seperator %2": "Импортирование/экспортирование массива CSV (%0) в файл %1, разделитель: %2",
-        "Custom settings can only be used if \"Standard Ini\" mode is disabled.": "Пользовательские настройки можно использовать, только если отключён режим «Standard Ini» (cтандартный режим).",
+        "Custom settings can only be used if \"Standard Ini\" mode is disabled.": "Пользовательские настройки можно использовать, только если выключен режим Standard Ini (cтандартный режим).",
         "Data loaded into the object after the default file is loaded. Object settings are used except encryption and compression.": "Данные загруженные в объект после загрузки файла по умолчанию. Используются настройки объектов кроме шифрования и сжатия.",
         "Decompress %0 to %1": "Распаковать: %0 в %1",
         "Default directory": "Каталог по умолчанию",
@@ -509,7 +509,7 @@
         "Swap items and values": "Менять знач. и элем."
     },
     "dialog_116": {
-        "Add group name only to results": "Добав.имя групп в результат",
+        "Add group name only to results": "Добавлять названия групп только в результаты",
         "And": "And",
         "Case sensitive": "Чув. к регистр.",
         "Discard previous results": "Удал.пред. результат",

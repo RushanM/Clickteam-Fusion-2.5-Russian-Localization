@@ -53,7 +53,7 @@
 		"Window initialization error." : "Ошибка инициализации окна."
 	},
 	"dialog_700" : {
-		"Application paused" : "Приложение на паузе",
+		"Application paused" : "Приложение приостановлено",
 		"Continue" : "Продолжить"
 	},
 	"dialog_701" : {

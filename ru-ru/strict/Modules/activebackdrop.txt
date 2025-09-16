@@ -1,9 +1,9 @@
-{
+﻿{
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
 		"%o: is visible" : "%o: видимый",
-		"Active Backdrop" : "Активный объект-фон",
+		"Active Backdrop" : "Активный объект — фон",
 		"Changeable backdrop object" : "Изменяемый объект фона.",
 		"Check this box to make the object visible at start of frame" : "Выберите эту опцию чтобы объект был видимым при запуске сцены",
 		"Click on the edit button to add/change the images" : "Нажмите на кнопку редактировать, чтобы добавить/изменить изображения",

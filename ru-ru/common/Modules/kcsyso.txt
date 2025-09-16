@@ -4,7 +4,7 @@
 	"general" : {
 		"Allows you to retrieve system information (user name, language, environment variables, etc.). For Pro version only." : "Позволяет получать информацию о системе (имя пользователя, язык, переменные среды и т. д.). Только для профессиональной версии.",
 		"Computer langage: %i   " : "Язык компьютера: %i   ",
-		"Computer name: %s" : "Имя компьютера: %s",
+		"Computer name: %s" : "Название компьютера: %s",
 		"Langage name: %s" : "Название языка: %s",
 		"OS" : "ОС",
 		"OS object" : "ОС",

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": 1,
     "lang": 1049,
     "general": {
@@ -8,6 +8,7 @@
 		"Embed a font": "Встроить шрифт",
 		"Embed Font": "Встроить шрифт %0 %1 %2",
 		"Number of fonts added": "Количество добавленных шрифтов",
+		"Path of the font (separate multiple font paths with a | pipe character)": "Путь к шрифту (в случае ввода нескольких шрифтов, используйте вертикальную черту «|» для разделения)",
 		"Remove a font": "Удалить шрифт"
     }
 }

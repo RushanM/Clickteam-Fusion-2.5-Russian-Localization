@@ -1,4 +1,4 @@
-{
+﻿{
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
@@ -160,7 +160,7 @@
 		"Animation speed" : "Скорость анимации",
 		"Animation" : "Анимация",
 		"Current alpha number" : "Номер текущего альфа",
-		"Current ID" : "Текущий ID",
+		"Current ID" : "Текущий идентификатор",
 		"Current image number" : "Номер текущего изображения",
 		"Current name" : "Текущее имя",
 		"Get angle" : "Получить угол",

@@ -2,7 +2,7 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"Active Shape" : "Активный объект-фигура",
+		"Active Shape" : "Активный объект — фигура",
 		"Display" : "Отображение",
 		"Shape" : "Форма",
 		"Shape" : "Форма",

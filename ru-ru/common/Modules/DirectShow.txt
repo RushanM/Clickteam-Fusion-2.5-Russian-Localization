@@ -49,7 +49,7 @@
 		"Height" : "Высота",
 		"Hide DirectShow window" : "Скрыть окно DirectShow",
 		"Hides the DVD control window" : "Скрыть окно управления DVD",
-		"Makes the object disabled at start of frame" : "Сделать объект отключённым при старте сцены",
+		"Makes the object disabled at start of frame" : "Сделать объект выключенным при старте сцены",
 		"Makes the object visible at start of frame" : "Сделать объект видимым при старте сцены",
 		"Options" : "Настройки",
 		"Pathname" : "Путь",
