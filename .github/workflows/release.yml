@@ -44,8 +44,8 @@ jobs:
             echo "release_type=${{ github.event.inputs.release_type }}" >> $GITHUB_ENV
             echo "Event: Workflow dispatch. Set release_type to ${{ github.event.inputs.release_type }}."
           else
-            echo "release_type=release" >> $GITHUB_ENV
-            echo "Event: Other. Set release_type to release."
+            echo "release_type=beta" >> $GITHUB_ENV
+            echo "Event: Other. Set release_type to beta."
           fi
 
       - name: Определение следующей релизной версии
