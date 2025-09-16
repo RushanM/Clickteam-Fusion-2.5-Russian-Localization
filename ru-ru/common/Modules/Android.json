@@ -2,7 +2,7 @@
     "About": {
         "Author": "Clickteam",
         "Comment": "Часть экспортера Android. Обеспечивает специальные функции для работы на устройствах Android.",
-        "Copyright": "Охраняется авторским правом (C) 2012-2014 Clickteam",
+        "Copyright": "Охраняется авторским правом © 2012-2014 Clickteam",
         "Help": "Android.chm",
         "Identifier": "AndR",
         "Name": "Android",

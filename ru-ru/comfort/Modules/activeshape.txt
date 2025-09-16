@@ -1,0 +1,18 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Active Shape" : "Актив-фигура",
+		"Display" : "Отображение",
+		"Shape" : "Форма",
+		"Shape" : "Форма",
+		"Rectangle" : "Прямоугольник",
+		"Ellipse" : "Эллипс",
+		"Polygon" : "Многоугольник",
+		"Line Color" : "Цвет контура",
+		"Line Weight" : "Толщина контура",
+		"Fill Options" : "Настройки заливки",
+		"Fill" : "Заливка",
+		"Shape Type" : "Тип фигуры"
+	}
+}

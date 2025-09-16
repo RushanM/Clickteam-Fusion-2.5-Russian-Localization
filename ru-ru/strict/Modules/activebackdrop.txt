@@ -1,0 +1,40 @@
+{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"%o: is visible" : "%o: видимый",
+		"Active Backdrop" : "Активный объект-фон",
+		"Changeable backdrop object" : "Изменяемый объект фона.",
+		"Check this box to make the object visible at start of frame" : "Выберите эту опцию чтобы объект был видимым при запуске сцены",
+		"Click on the edit button to add/change the images" : "Нажмите на кнопку редактировать, чтобы добавить/изменить изображения",
+		"Enter the X coordinate" : "Введите координату Х",
+		"Enter the Y coordinate" : "Введите координату Y",
+		"Enter the image number (starting at 0)" : "Введите номер изображения (начальное знач. 0)",
+		"Hide" : "Скрыть",
+		"Image list" : "Список изображений",
+		"List of predefined images" : "Список заранее определенных изображений",
+		"Set X coordinate to %0" : "Установить координату Х %0",
+		"Set Y coordinate to %0" : "Установить координату Y %0",
+		"Set image to %0" : "Установить изображение %0",
+		"Show" : "Показать",
+		"Visible" : "Видимый"
+	},
+	"menu_20000" : {
+		"Actions" : "Действия",
+		"Hide" : "Скрыть",
+		"Set X coordinate" : "Установить координату Х",
+		"Set Y coordinate" : "Установить координату Y",
+		"Set image" : "Установить изображение",
+		"Show" : "Показать"
+	},
+	"menu_20001" : {
+		"Conditions" : "Условия",
+		"Is object visible" : "Объект видимый?"
+	},
+	"menu_20002" : {
+		"Expressions" : "Выражения",
+		"Get X coordinate" : "Получить координату Х",
+		"Get Y coordinate" : "Получить координату Y",
+		"Get image number" : "Получить номер изображения"
+	}
+}

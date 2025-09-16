@@ -2,7 +2,7 @@
     {
         "Name": "OUYA",
         "Author": "Clickteam",
-        "Copyright": "Copyright (C) 2013 Clickteam",
+        "Copyright": "Copyright © 2013 Clickteam",
         "Website": "http://www.clickteam.com",
         "Comment": "Часть Android экспортера. Обеспечивает специальную функциональность, когда работает на консоли OUYA.",
 
