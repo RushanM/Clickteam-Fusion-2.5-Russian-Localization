@@ -19,7 +19,7 @@
 		"Enter the minimum number of players" : "Введите минимальное количество игроков",
 		"Enter the minimum number of players for your game" : "Введите минимальное количество игроков для вашей игры",
 		"Find matching players" : "Найти пары игроков",
-		"Game Center Multiplayer" : "Game Center - Мультиплеер",
+		"Game Center Multiplayer" : "Game Center: мультиплеер",
 		"Maximal players" : "Максимум игроков",
 		"Minimal players" : "Минимум игроков",
 		"Player #%i" : "Игрок #%i",

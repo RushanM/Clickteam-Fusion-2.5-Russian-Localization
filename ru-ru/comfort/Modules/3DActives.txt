@@ -3,7 +3,7 @@
     "lang": 1049,
     "general": {
         "3D Actives": "3D-активы",
-        "Turns normal active object to (flat) 3D sprites": "Превращает обычные активы в (плоские) 3D-спрайты.",
+        "Turns normal active object to (flat) 3D sprites": "Превращает обычные активы в (плоские) спрайты с тремя измерениями.",
         "Center position": "Позиция по центру",
         "Disable scaling": "Выключить масштабирование",
         "Enable scaling": "Включить масштабирование",

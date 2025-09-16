@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "lang": 1049,
+    "general": {
+        "3D Actives": "Трёхмерные активные объекты",
+        "Turns normal active object to (flat) 3D sprites": "Превращает обычные активные объекты в (плоские) спрайты с тремя измерениями.",
+        "Center position": "Позиция по центру",
+        "Disable scaling": "Выключить масштабирование",
+        "Enable scaling": "Включить масштабирование",
+        "Limit for resizing.": "Ограничение на изменение размера.",
+        "Move %0 to 3D( %1 , %2 ,%3 )": "Переместить %0 в 3D (X: %1, Y: %2, Z: %3)",
+        "Prespective Value": "Значение перспективы",
+        "Rotate the camara to %0 , %1 , %2": "Повернуть камеру на %0, %1, %2",
+        "Scale objects at runtime?": "Масштабировать объекты во время работы приложения?",
+        "Select Object": "Выбрать объект",
+        "Set Prespective Value to %0": "Установить значение перспективы на %0",
+        "Value (Floats allowed)": "Значение (допустимы дробные числа)",
+        "X (Float Allowed)": "X (допустимы дробные числа)",
+        "X (Float, 0-360)": "X (дробное число, 0—360)",
+        "Y (Float Allowed)": "Y (допустимы дробные числа)",
+        "Y (Float, 0-360)": "Y (дробное число, 0—360)",
+        "Z (Float Allowed)": "Z (допустимы дробные числа)",
+        "Z (Float, 0-360)": "Z (дробное число, 0—360)"
+    },
+    "menu_20000": {
+        "Disable scaling": "Выключить масштабирование",
+        "Enable scaling": "Включить масштабирование",
+        "Move an object": "Переместить объект",
+        "Rotate the camara": "Повернуть камеру",
+        "Set Prespective Value": "Установить значение перспективы",
+        "Settings": "Настройки"
+    },
+    "menu_20002": {
+        "Get X angle of the camara": "Получить угол X камеры",
+        "Get X position of last moved object": "Получить позицию X последнего перемещённого объекта",
+        "Get Y angle of the camara": "Получить угол Y камеры",
+        "Get Y position of last moved object": "Получить позицию Y последнего перемещённого объекта",
+        "Get Z angle of the camara": "Получить угол Z камеры",
+        "Get Z position of last moved object": "Получить позицию Z последнего перемещённого объекта"
+    }
+}
