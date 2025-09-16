@@ -375,7 +375,7 @@
 		"10%s is visible" : "%o видим",
 		"10%s leaves the play area" : "10%s покидает игровую зону",
 		"10%s: WARNING: old object!" : "10%s: ВНИМАНИЕ: старый объект!",
-		"10Application %s is finished" : "Приложение %o закончено",
+		"10Application %s is finished" : "10Выполнение приложения %s завершено",
 		"10Application %s is paused" : "Приложение %s на паузе",
 		"10Application %s is visible" : "Приложение %o является видимым",
 		"10Is %s playing?" : "10: %s играет?",
