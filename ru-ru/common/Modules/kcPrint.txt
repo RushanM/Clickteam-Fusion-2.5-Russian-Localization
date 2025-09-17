@@ -19,9 +19,9 @@
 		"Print" : "Печать",
 		"Print object" : "Печать объекта",
 		"Printing '%s'" : "Печать %s",
-		"Printing band #%d" : "Печать группы #%d",
+		"Printing band #%d" : "Печать группы № %d",
 		"Printing datas" : "Печать данные",
-		"Printing page #%d" : "Печать страницы #%d",
+		"Printing page #%d" : "Печать страницы № %d",
 		"Sending datas to printer..." : "Отправка данных на печать...",
 		"on %s on %s" : "на %s на %s"
 	},

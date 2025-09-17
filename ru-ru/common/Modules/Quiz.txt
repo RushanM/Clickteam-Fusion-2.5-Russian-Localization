@@ -214,7 +214,7 @@
 		"Object's size too small to display page %i" : "Размер объекта слишком мал, чтобы отобразить его на странице %i",
 		"Open" : "Открыть",
 		"Out of memory." : "Недостаточно памяти.",
-		"Page #" : "Страница №",
+		"Page #" : "Страница № ",
 		"Page %i / %i" : "Страница %i/%i",
 		"Page number %i" : "Номер страницы %i",
 		"Page number %i is missing. Loading stops at this page." : "Страница номер %i не найдена. Загрузка останавливается на этой странице.",

@@ -22,7 +22,7 @@
 		"Game Center Multiplayer" : "Game Center: мультиплеер",
 		"Maximal players" : "Максимум игроков",
 		"Minimal players" : "Минимум игроков",
-		"Player #%i" : "Игрок #%i",
+		"Player #%i" : "Игрок № %i",
 		"Player index" : "Индекс игрока",
 		"Players group" : "Группа игроков",
 		"Send data %0 to all, reliable" : "Передача данных %0 для всех, надёжная",
