@@ -31,7 +31,7 @@
         "Check if you want to automatically login at start of frame.": "Установите флажок, если вы хотите автоматически входить в систему в начале сцены.",
         "Clear Image Bank": "Позволяет очистить группу изображений.",
         "Convert Timestamp to Date": "Конвертировать временную метку в дату",
-        "Copyright © 2015-2020 Clickteam": "Охраняется авторским правом © 2015-2020 Clickteam",
+        "Copyright © 2015-2020 Clickteam": "Авторское право © принадлежит Clickteam с 2015 по 2020 год",
         "Days since last Played": "Дней спустя последней игры",
         "Deprecated ...": "Не рекомендуется...",
         "Dismiss ...": "Отклонить",

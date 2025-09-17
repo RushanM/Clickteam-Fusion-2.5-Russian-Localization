@@ -3,15 +3,34 @@
     "lang" : 1049,
     "general" : {
         "Advanced Race Car Object 2" : "Расширенное движение гоночной машины 2",
-        "ARCO 2 gives you the power to make great and powerful race car movement. It include cool features such as acceleration and deceleration and can be also used for AI and other types of movements.": "РДГМ2 даёт возможность создавать реалистичное и динамичное движение гоночного автомобиля. В комплекте есть полезные функции — ускорение и замедление — и модуль можно использовать для ИИ и других типов перемещений.",
+        "ARCO 2 gives you the power to make great and powerful race car movement. It include cool features such as acceleration and deceleration and can be also used for AI and other types of movements.": "РДГМ2 даёт возможность создавать реалистичное и динамичное движение гоночного автомобиля. В комплекте есть полезные функции в виде ускорения и замедления и объект можно использовать для ИИ и других типов перемещений.",
         "ARCO 2 gives you the power to make great and powerful race car movement.": "РДГМ2 даёт возможность создавать реалистичное и динамичное движение гоночного автомобиля.",
-        "ARCO 2 gives you the power to make great and powerful race car movement.\nIt include cool features such as acceleration and deceleration and can be also used for AI and other types of movements.": "РДГМ2 даёт возможность создавать реалистичное и динамичное движение гоночного автомобиля.\nВ комплекте есть полезные функции — ускорение и замедление — и модуль можно использовать для ИИ и других типов перемещений.",
-        "It include cool features such as acceleration and deceleration and can be also used for AI and other types of movements." : "В комплекте есть полезные функции — ускорение и замедление — и модуль можно использовать для ИИ и других типов перемещений.",
+        "ARCO 2 gives you the power to make great and powerful race car movement.\nIt include cool features such as acceleration and deceleration and can be also used for AI and other types of movements.": "РДГМ2 даёт возможность создавать реалистичное и динамичное движение гоночного автомобиля.\nВ комплекте есть полезные функции в виде ускорения и замедления и объект можно использовать для ИИ и других типов перемещений.",
+        "It include cool features such as acceleration and deceleration and can be also used for AI and other types of movements." : "В комплекте есть полезные функции в виде ускорения и замедления и объект можно использовать для ИИ и других типов перемещений.",
         "Copyright (c) LIJI 2005-2006" : "Авторское право © принадлежит LIJI с 2005 по 2006 год",
         "FileDescription" : "Объект расширенного движения гоночной машины 2",
         "LegalCopyright" : "Авторское право © принадлежит LIJI с 2005 по 2006 год",
+        "Settings" : "Настройки",
         "Set speed" : "Задать скорость",
         "Set rotation Speed" : "Задать скорость вращения",
+        "Set acceleration" : "Задать ускорение",
+        "Set deceleration" : "Задать замедление",
+        "Step" : "Шаг",
+        "Step forward" : "Шаг вперёд",
+        "Step backward" : "Шаг назад",
+        "Rotation" : "Вращение",
+        "Rotate right" : "Повернуть направо",
+        "Rotate left" : "Повернуть налево",
+        "Custom" : "Пользовательские значения",
+        "Step in amount" : "Шаг на величину",
+        "Rotate in amount" : "Повернуть на величину",
+        "Set postion" : "Задать позицию",
+        "Set angle" : "Задать угол",
+        "Set current speed" : "Задать текущую скорость",
+        "Step in angle" : "Шаг в направлении угла",
+        "Step in angle and amount" : "Шаг в направлении угла на величину",
+        "Stop" : "Остановить",
+        "Bounce" : "Отскочить",
         "%o After moving the object" : "%o: после перемещения объекта",
         "%o Before moving the object" : "%o: перед перемещением объекта",
         "Amount" : "Величина",
@@ -34,10 +53,7 @@
         "Speed" : "Скорость",
         "Step %0 pixels" : "Сделать шаг на %0 пикселей",
         "Step %1 pixels in %0 deg" : "Сделать шаг на %1 пикселей в направлении %0°",
-        "Step backward" : "Шаг назад",
-        "Step forward" : "Шаг вперёд",
-        "Step in %0 deg" : "Сделать шаг в направлении %0°",
-        "Stop" : "Остановиться"
+        "Step in %0 deg" : "Сделать шаг в направлении %0°"
     },
 	"menu_20000" : {
         "%o After moving the object" : "%o: после перемещения объекта",
@@ -65,7 +81,7 @@
         "Step backward" : "Шаг назад",
         "Step forward" : "Шаг вперёд",
         "Step in %0 deg" : "Сделать шаг в направлении %0°",
-        "Stop" : "Остановиться"
+        "Stop" : "Остановить"
     },
 	"menu_20001" : {
         "%o After moving the object" : "%o: после перемещения объекта",
@@ -93,7 +109,7 @@
         "Step backward" : "Шаг назад",
         "Step forward" : "Шаг вперёд",
         "Step in %0 deg" : "Сделать шаг в направлении %0°",
-        "Stop" : "Остановиться"
+        "Stop" : "Остановить"
     },
 	"menu_20002" : {
         "%o After moving the object" : "%o: после перемещения объекта",
@@ -121,7 +137,7 @@
         "Step backward" : "Шаг назад",
         "Step forward" : "Шаг вперёд",
         "Step in %0 deg" : "Сделать шаг в направлении %0°",
-        "Stop" : "Остановиться"
+        "Stop" : "Остановить"
     },
 	"menu_20003" : {
         "%o After moving the object" : "%o: после перемещения объекта",
@@ -149,6 +165,6 @@
         "Step backward" : "Шаг назад",
         "Step forward" : "Шаг вперёд",
         "Step in %0 deg" : "Сделать шаг в направлении %0°",
-        "Stop" : "Остановиться"
+        "Stop" : "Остановить"
     }
 }

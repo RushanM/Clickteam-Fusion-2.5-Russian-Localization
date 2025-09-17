@@ -8,7 +8,7 @@
         "%o: On Snapshots read": "%o: снапшоты прочтены",
         "Bank of Images to use when saving a snapshot": "Группа изображений для использования при сохранении снапшота.",
         "Clear Image Bank": "Позволяет очистить группу изображений.",
-        "Copyright © 2015-2020 Clickteam": "Охраняется авторским правом © 2015-2020 Clickteam",
+        "Copyright © 2015-2020 Clickteam": "Авторское право © принадлежит Clickteam с 2015 по 2020 год",
         "Delete Snapshot": "Удалить снапшот",
         "Delete Snapshot with name %0": "Удалить снапшот с названием %0",
         "Error": "Ошибка",

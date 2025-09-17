@@ -2,9 +2,9 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"Ultimate Fullscreen" : "Ultimate Fullscreen",
+		"Ultimate Fullscreen" : "Совершенный полноэкранный режим",
 		"Version 1.1.  A better fullscreen solution that preserves aspect ratio and allows for widescreen configurations such as \"vert-\" and \"hor+\"." : "Версия 1.1. Более лучшее решение применения полноэкранного режима, которое сохраняет соотношение сторон и позволяет использовать конфигурации широкоэкранного режима, такие как «верт-» и «гор+».",
-		"Copyright © January 2011 Sebastian Janisz" : "Охраняется авторским правом © Январь 2011 Себастьян Яниш",
+		"Copyright © January 2011 Sebastian Janisz" : "Авторское право © принадлежит Себастьяну Янишу с января 2011 года",
 		"Sebastian Janisz" : "Себастьян Яниш",
 		"Don't listen for screen maximize" : "Не ждать сигнала для увеличения экрана",
 		"Listen for screen maximize (default)" : "Ждать сигнала для увеличения экрана (по умолчанию)",
