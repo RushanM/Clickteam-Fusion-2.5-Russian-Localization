@@ -41,7 +41,7 @@
 
 # 12-й релиз
 
-![image](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/blob/main/%D0%90%D1%81%D1%81%D0%B5%D1%82%D1%8B/12.png?raw=true)
+![image](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Language/blob/main/assets/12.png?raw=true)
 
 ## Изменения
 
