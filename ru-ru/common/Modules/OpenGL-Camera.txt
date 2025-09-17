@@ -1,7 +1,7 @@
 {
     "general": {
         "FOV": "Поле зрения",
-        "OpenGL Camera": "OpenGL — Камера",
+        "OpenGL Camera": "OpenGL: камера",
         "Perspective": "Перспектива"
     },
     "lang": 1049,

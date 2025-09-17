@@ -1,6 +1,6 @@
 {
     "general": {
-        "OpenGL Clear Control": "OpenGL — Управление очисткой",
+        "OpenGL Clear Control": "OpenGL: управление очисткой",
         "Set clear color...": "Задать цвет для очистки",
         "Set clear depth...": "Задать глубину для очистки"
     },

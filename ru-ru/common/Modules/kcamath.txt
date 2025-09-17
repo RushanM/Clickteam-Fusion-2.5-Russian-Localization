@@ -1,0 +1,55 @@
+﻿{
+    "version" : 1,
+    "lang" : 1049,
+    "general" : {
+        "Advanced Math object" : "Расширенная математика",
+        "Advanced Math Extension for MMF" : "Расширение расширенной математики для Multimedia Fusion.",
+        "CompanyName" : "Cellosoft",
+        "Copyright © 1999-2000 Marcello Bastea-Forte and Rodrigo Braz Monteiro" : "Авторское право © принадлежит Марчелло Бастеа-Форте и Родриго Браз Монтеиро с 1999 по 2000 год",
+        "FileDescription" : "Объект расширенной математики",
+        "LegalCopyright" : "Авторское право © принадлежит Марчелло Бастеа-Форте и Родриго Браз Монтеиро с 1999 по 2000 год",
+        "Marcello Bastea-Forte and Rodrigo Braz Monteiro, Cellosoft" : "Марчелло Бастеа-Форте и Родриго Браз Монтеиро, Cellosoft",
+        "Set decimal offset" : "Задать смещение десятичной точки",
+        "01Set decimal offset" : "01Задать смещение десятичной точки",
+        "Set fixed object" : "Задать фиксированный объект",
+        "01Set fixed object" : "01Задать фиксированный объект",
+        "01Set decimal offset to 10^%s" : "01Задать десятичное смещение равным 10^%s",
+        "11%s: Distance between fixed object and %s is %s" : "11%s: расстояние между фиксированным объектом и %s составляет %s",
+        "11%s: Fixed object is facing %s within %s degrees." : "11%s: фиксированный объект направлен к %s с допустимым отклонением %s градусов",
+        "11%s: Fixed object X %s" : "11%s: координата X фиксированного объекта: %s",
+        "11%s: Fixed object Y %s" : "11%s: координата Y фиксированного объекта: %s"
+    },
+	"menu_20000" : {
+        "Set decimal offset" : "Задать смещение десятичной точки",
+        "01Set decimal offset" : "01Задать смещение десятичной точки",
+        "Set fixed object" : "Задать фиксированный объект",
+        "01Set fixed object" : "01Задать фиксированный объект",
+        "01Set decimal offset to 10^%s" : "01Задать десятичное смещение равным 10^%s",
+        "11%s: Distance between fixed object and %s is %s" : "11%s: расстояние между фиксированным объектом и %s составляет %s",
+        "11%s: Fixed object is facing %s within %s degrees." : "11%s: фиксированный объект направлен к %s с допустимым отклонением %s градусов",
+        "11%s: Fixed object X %s" : "11%s: координата X фиксированного объекта: %s",
+        "11%s: Fixed object Y %s" : "11%s: координата Y фиксированного объекта: %s"
+    },
+	"menu_20001" : {
+        "Set decimal offset" : "Задать смещение десятичной точки",
+        "01Set decimal offset" : "01Задать смещение десятичной точки",
+        "Set fixed object" : "Задать фиксированный объект",
+        "01Set fixed object" : "01Задать фиксированный объект",
+        "01Set decimal offset to 10^%s" : "01Задать десятичное смещение равным 10^%s",
+        "11%s: Distance between fixed object and %s is %s" : "11%s: расстояние между фиксированным объектом и %s составляет %s",
+        "11%s: Fixed object is facing %s within %s degrees." : "11%s: фиксированный объект направлен к %s с допустимым отклонением %s градусов",
+        "11%s: Fixed object X %s" : "11%s: координата X фиксированного объекта: %s",
+        "11%s: Fixed object Y %s" : "11%s: координата Y фиксированного объекта: %s"
+    },
+	"menu_20002" : {
+        "Set decimal offset" : "Задать смещение десятичной точки",
+        "01Set decimal offset" : "01Задать смещение десятичной точки",
+        "Set fixed object" : "Задать фиксированный объект",
+        "01Set fixed object" : "01Задать фиксированный объект",
+        "01Set decimal offset to 10^%s" : "01Задать десятичное смещение равным 10^%s",
+        "11%s: Distance between fixed object and %s is %s" : "11%s: расстояние между фиксированным объектом и %s составляет %s",
+        "11%s: Fixed object is facing %s within %s degrees." : "11%s: фиксированный объект направлен к %s с допустимым отклонением %s градусов",
+        "11%s: Fixed object X %s" : "11%s: координата X фиксированного объекта: %s",
+        "11%s: Fixed object Y %s" : "11%s: координата Y фиксированного объекта: %s"
+    }
+}

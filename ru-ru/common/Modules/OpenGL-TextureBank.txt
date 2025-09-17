@@ -1,5 +1,6 @@
 {
     "general": {
+        "OpenGL Texture Bank": "OpenGL: банк текстур",
         "%o: On texture loaded": "%o: текстура загружена",
         "%o: Texture %0 is loaded": "%o: текстура %0 загружена",
         "A texture is loaded? ( Index )": "Текстура загружена? (Номер)",
@@ -26,7 +27,6 @@
         "Move up": "Выше",
         "Name:": "Назв.:",
         "On texture loaded": "Текстура загружена?",
-        "OpenGL Texture Bank": "OpenGL: банк текстур",
         "Plane": "Плоскость",
         "Remove": "Убрать",
         "Stretched": "Растянутый",

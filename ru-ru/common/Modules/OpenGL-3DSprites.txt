@@ -41,7 +41,7 @@
         "On animation finished": "Анимация завершена?",
         "On object loop": "Прошёл цикл объекта?",
         "On texture handle request": "Запрошена обработка текстур?",
-        "OpenGL 3D Sprites": "OpenGL — 3D-спрайты",
+        "OpenGL 3D Sprites": "OpenGL: трёхмерные спрайты",
         "Pass requested texture handle: %0": "Переназначить обработку запрошенной текстуры: %0",
         "Pass texture handle...": "Переназначить обработку текстур",
         "Position": "Позиция",

@@ -2,7 +2,7 @@
     "general": {
         "Disable": "Выключить",
         "Enable": "Включить",
-        "OpenGL Lighting ( Advanced )": "OpenGL — Освещение (продвинутое)",
+        "OpenGL Lighting ( Advanced )": "OpenGL: освещение (продвинутое)",
         "Set ambient color...": "Задать цвет окружения",
         "Set diffuse color...": "Задать диффузный цвет",
         "Set global ambient color...": "Задать глобальный цвет окружения",

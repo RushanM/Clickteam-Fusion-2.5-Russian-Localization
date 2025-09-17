@@ -2,7 +2,7 @@
 	"version": 1,
 	"lang": 1049,
 	"general": {
-	    "OpenGL Base": "OpenGL — Ядро",
+	    "OpenGL Base": "OpenGL: ядро",
         "Auto swap buffers": "Буферы автоматической замены",
 		"Auto redraw": "Автоматическая перерисовка",
 		"V-Sync": "Вертикальная синхронизация",

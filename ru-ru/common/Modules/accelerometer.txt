@@ -1,26 +1,26 @@
 ﻿{
-    "version": 1,
-    "lang": 1049,
-    "general": {
-        "Accelerometer object": "Акселерометр",
-        "Device orientation changed": "Изменение ориентации устройства",
-        "Retrieve data from the accelerometer on devices that support it (such as the iPhone or some Android phones).": "Возвращает данные акселерометра на устройствах, поддерживающих его (таких как iPhone или некоторых устройств на Android)."
+    "version" : 1,
+    "lang" : 1049,
+    "general" : {
+        "Accelerometer object" : "Акселерометр",
+        "Device orientation changed" : "Изменение ориентации устройства",
+        "Retrieve data from the accelerometer on devices that support it (such as the iPhone or some Android phones)." : "Возвращает данные акселерометра на устройствах, поддерживающих его (таких как iPhone или некоторых устройств на Android)."
     },
-    "menu_20000": {
-        "Actions": "Действия"
+    "menu_20000" : {
+        "Actions" : "Действия"
     },
-    "menu_20001": {
-        "Conditions": "Условия",
-        "Device orientation changed": "Ориентация устройства изменена"
+    "menu_20001" : {
+        "Conditions" : "Условия",
+        "Device orientation changed" : "Ориентация устройства изменена"
     },
-    "menu_20002": {
-        "Device orientation": "Ориентация устройства",
-        "Direct values": "Значения направлений",
-        "Expressions": "Выражения",
-        "Gravity isolated values": "Значения без гравитации",
-        "Instantaneous values": "Текущие значения",
-        "X acceleration": "Акселерация X",
-        "Y acceleration": "Акселерация Y",
-        "Z acceleration": "Акселерация Z"
+    "menu_20002" : {
+        "Device orientation" : "Ориентация устройства",
+        "Direct values" : "Значения направлений",
+        "Expressions" : "Выражения",
+        "Gravity isolated values" : "Значения без гравитации",
+        "Instantaneous values" : "Текущие значения",
+        "X acceleration" : "Акселерация X",
+        "Y acceleration" : "Акселерация Y",
+        "Z acceleration" : "Акселерация Z"
     }
 }

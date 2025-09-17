@@ -1,13 +1,13 @@
-{   "About":
+﻿{   "About":
     {
-        "Name": "Android",
-        "Author": "Clickteam",
-        "Copyright": "Copyright © 2012-2014 Clickteam",
-        "Website": "http://www.clickteam.com",
-        "Comment": "Часть экспортера Android. Обеспечивает специальные функции для работы на устройствах Android.",
-        "URL": "http://www.clickteam.com",
-        "Help": "Android.chm",
-        "Identifier": "AndR",
+        "Name" : "Android",
+        "Author" : "Clickteam",
+        "Copyright" : "Copyright © 2012-2014 Clickteam",
+        "Website" : "http://www.clickteam.com",
+        "Comment" : "Часть экспортера Android. Обеспечивает специальные функции для работы на устройствах Android.",
+        "URL" : "http://www.clickteam.com",
+        "Help" : "Android.chm",
+        "Identifier" : "AndR",
     },
 
     "ActionMenu":
@@ -263,106 +263,106 @@
 
     "Actions":
     [
-        { "Title": "Журнал - отладчик : %0",
-          "Parameters": [["Text", "Текст журнала"]] },
-        { "Title": "Журнал - ошибка : %0",
-          "Parameters": [["Text", "Текст журнала"]] },
-        { "Title": "Журнал - информация : %0",
-          "Parameters": [["Text", "Текст журнала"]] },
-        { "Title": "Журнал  - подробно : %0",
-          "Parameters": [["Text", "Текст журнала"]] },
-        { "Title": "Журнал  - предупреждения : %0",
-          "Parameters": [["Text", "Текст журнала"]] },
+        { "Title" : "Журнал - отладчик : %0",
+          "Parameters" : [["Text", "Текст журнала"]] },
+        { "Title" : "Журнал - ошибка : %0",
+          "Parameters" : [["Text", "Текст журнала"]] },
+        { "Title" : "Журнал - информация : %0",
+          "Parameters" : [["Text", "Текст журнала"]] },
+        { "Title" : "Журнал  - подробно : %0",
+          "Parameters" : [["Text", "Текст журнала"]] },
+        { "Title" : "Журнал  - предупреждения : %0",
+          "Parameters" : [["Text", "Текст журнала"]] },
           
-        { "Title": "Установить тег журнала %0",
-          "Parameters": [["Text", "Тег журнала (по умолчанию = название приложения)"]] },
+        { "Title" : "Установить тег журнала %0",
+          "Parameters" : [["Text", "Тег журнала (по умолчанию = название приложения)"]] },
           
-        { "Title": "Начать предотвращение ухода в спящий режим" },
-        { "Title": "Остановить предотвращение ухода в спящий режим" },
+        { "Title" : "Начать предотвращение ухода в спящий режим" },
+        { "Title" : "Остановить предотвращение ухода в спящий режим" },
         
-        { "Title": "Скрыть строку состояния" },
-        { "Title": "Показать строку состояния" },
+        { "Title" : "Скрыть строку состояния" },
+        { "Title" : "Показать строку состояния" },
         
-        { "Title": "Открыть URL %0",
-          "Parameters": [["Text", "URL для открытия"]] },
+        { "Title" : "Открыть URL %0",
+          "Parameters" : [["Text", "URL для открытия"]] },
           
-        { "Title": "Намерение (исходящие): Запуск намерения %0 с URI %1",
-          "Parameters": [["Text", "Намерение для старта (например, «android.намерение.действие.НАБРАТЬ НОМЕР»)"],
+        { "Title" : "Намерение (исходящие): Запуск намерения %0 с URI %1",
+          "Parameters" : [["Text", "Намерение для старта (например, «android.намерение.действие.НАБРАТЬ НОМЕР»)"],
                         ["Text", "URI (например, «тел: 123»)"]] },
 
-        {"Title": "Вибрация в течении %0 миллисекунд",
-            "Parameters": [["Integer", "Продолжительность (в миллисекундах)"]]
+        {"Title" : "Вибрация в течении %0 миллисекунд",
+            "Parameters" : [["Integer", "Продолжительность (в миллисекундах)"]]
         },
 
-        { "Title": "Показать клавиатуру" },
-        { "Title": "Скрыть клавиатуру" },
+        { "Title" : "Показать клавиатуру" },
+        { "Title" : "Скрыть клавиатуру" },
 
-        { "Title": "Намерение (исходящие): Добавить категорию %0",
-          "Parameters": [["Text", "Название категории"]]
+        { "Title" : "Намерение (исходящие): Добавить категорию %0",
+          "Parameters" : [["Text", "Название категории"]]
         },
 
-        { "Title": "Намерение (исходящие): Добавить экстра строку %0 = %1",
-          "Parameters": [["Text", "Название"], ["Text", "Значение"]]
+        { "Title" : "Намерение (исходящие): Добавить экстра строку %0 = %1",
+          "Parameters" : [["Text", "Название"], ["Text", "Значение"]]
         },
 
-        { "Title": "Намерение (исходящие): Добавить экстра логическое %0 = %1",
-          "Parameters": [["Text", "Название"], ["Integer", "Значение (1 = верное, 0 = неверное)"]]
+        { "Title" : "Намерение (исходящие): Добавить экстра логическое %0 = %1",
+          "Parameters" : [["Text", "Название"], ["Integer", "Значение (1 = верное, 0 = неверное)"]]
         },
 
-        { "Title": "Намерение (исходящие): Добавить экстра длину %0 = %1",
-          "Parameters": [["Text", "Название"], ["Integer", "Значение"]]
+        { "Title" : "Намерение (исходящие): Добавить экстра длину %0 = %1",
+          "Parameters" : [["Text", "Название"], ["Integer", "Значение"]]
         },
 
-        { "Title": "Намерение (входящие): Получать уведомления для действия %0",
-          "Parameters": [["Text", "Действие"]]
+        { "Title" : "Намерение (входящие): Получать уведомления для действия %0",
+          "Parameters" : [["Text", "Действие"]]
         },
 
-        { "Title": "Намерение (входящие): Прекратить приём уведомлений для действия %0",
-          "Parameters": [["Text", "Действие"]]
+        { "Title" : "Намерение (входящие): Прекратить приём уведомлений для действия %0",
+          "Parameters" : [["Text", "Действие"]]
         },
 
-        { "Title": "Намерение (исходящие): Запуск намерения %0 с URI %1 (Выбрать название: 2%)",
-          "Parameters": [["Text", "Намерение для старта (например, «android.намерение.действие.НАБРАТЬ НОМЕР»)"],
+        { "Title" : "Намерение (исходящие): Запуск намерения %0 с URI %1 (Выбрать название: 2%)",
+          "Parameters" : [["Text", "Намерение для старта (например, «android.намерение.действие.НАБРАТЬ НОМЕР»)"],
                         ["Text", "URI (например, «тел: 123»)"],
                         ["Text", "Выбрать название"]] },
 
-        { "Title": "Включить опцию пункта меню %0",
-          "Parameters": [["Text", "ID пункта"]]
+        { "Title" : "Включить опцию пункта меню %0",
+          "Parameters" : [["Text", "ID пункта"]]
         },
 
-        { "Title": "Выключить опцию пункта меню %0",
-          "Parameters": [["Text", "ID пункта"]]
+        { "Title" : "Выключить опцию пункта меню %0",
+          "Parameters" : [["Text", "ID пункта"]]
         },
 
-        { "Title": "Показать действие/строка заголовка" },
-        { "Title": "Скрыть действие/строка заголовка" },
+        { "Title" : "Показать действие/строка заголовка" },
+        { "Title" : "Скрыть действие/строка заголовка" },
 		
-        { "Title": "Принудительно альбомная ориентация" },
-        { "Title": "Принудительно книжная ориентация" },
+        { "Title" : "Принудительно альбомная ориентация" },
+        { "Title" : "Принудительно книжная ориентация" },
 		
-		{ "Title": "Сохранить снимок экрана в файл %0",
-          "Parameters": [["Text", "название файла снимка экрана"]] },
+		{ "Title" : "Сохранить снимок экрана в файл %0",
+          "Parameters" : [["Text", "название файла снимка экрана"]] },
 		  
-        { "Title": "Открыть меню с помощью действия" },
+        { "Title" : "Открыть меню с помощью действия" },
 		
-        { "Title": "Выключить аппаратные средства" },
-        { "Title": "Включить аппаратные средства" },
-        { "Title": "Отправить приложение в фоновой режим" },
+        { "Title" : "Выключить аппаратные средства" },
+        { "Title" : "Включить аппаратные средства" },
+        { "Title" : "Отправить приложение в фоновой режим" },
 		
-        { "Title": "Показать панель навигации" },
-        { "Title": "Размер панели навигации" },
-        { "Title": "Скрыть панель навигации" },
-        { "Title": "Установить тип намерения %0",
-          "Parameters": [["Text", "Тип намерения"]]},		
-        { "Title": "Выключить автозавершение" },
-        { "Title": "Включить автозавершение" },
-        { "Title": "Установить набор символов %0",
-          "Parameters": [["Integer", "Установить символы (0:Unicode-по умолчанию, 1:ANSI)"]]},	
-        { "Title": "Намерение (исходящие): Добавить экстра URI %0 = %1",
-          "Parameters": [["Text", "Название"], ["Text", "Значение"]]
+        { "Title" : "Показать панель навигации" },
+        { "Title" : "Размер панели навигации" },
+        { "Title" : "Скрыть панель навигации" },
+        { "Title" : "Установить тип намерения %0",
+          "Parameters" : [["Text", "Тип намерения"]]},		
+        { "Title" : "Выключить автозавершение" },
+        { "Title" : "Включить автозавершение" },
+        { "Title" : "Установить набор символов %0",
+          "Parameters" : [["Integer", "Установить символы (0:Unicode-по умолчанию, 1:ANSI)"]]},	
+        { "Title" : "Намерение (исходящие): Добавить экстра URI %0 = %1",
+          "Parameters" : [["Text", "Название"], ["Text", "Значение"]]
         },
-	{ "Title": "Захват части рабочего стола в файле %0 по x:%1, y:%2, ширина:%3, высота:%4",
-          "Parameters": [["Text", "Название захваченного файла"],
+	{ "Title" : "Захват части рабочего стола в файле %0 по x:%1, y:%2, ширина:%3, высота:%4",
+          "Parameters" : [["Text", "Название захваченного файла"],
 			                   ["Integer", "X позиция"],
 			                   ["Integer", "Y позиция"],
 			                   ["Integer", "Ширина"],
@@ -372,183 +372,183 @@
 
     "Conditions":
     [
-        {   "Title": "%o: устройство имеет ГП",
-            "Triggered": false,
+        {   "Title" : "%o: устройство имеет ГП",
+            "Triggered" : false,
         },
-        {   "Title": "%o: пользователь в роуминге",
-            "Triggered": false
+        {   "Title" : "%o: пользователь в роуминге",
+            "Triggered" : false
         },
-        {   "Title": "%o: при исключении расширения",
-            "Triggered": true,
+        {   "Title" : "%o: при исключении расширения",
+            "Triggered" : true,
         },
-        {   "Title": "%o: сеть подключена?",
-            "Triggered": false,
+        {   "Title" : "%o: сеть подключена?",
+            "Triggered" : false,
         },
-        {   "Title": "%o: подключено к любому источнику питания",
-            "Triggered": false,
+        {   "Title" : "%o: подключено к любому источнику питания",
+            "Triggered" : false,
         },
-        {   "Title": "%o: подключён к адаптеру переменного тока",
-            "Triggered": false,
+        {   "Title" : "%o: подключён к адаптеру переменного тока",
+            "Triggered" : false,
         },
-        {   "Title": "%o: подключён к порту USB",
-            "Triggered": false,
+        {   "Title" : "%o: подключён к порту USB",
+            "Triggered" : false,
         },
-        {   "Title": "%o: аккумулятор заряжается",
-            "Triggered": false,
+        {   "Title" : "%o: аккумулятор заряжается",
+            "Triggered" : false,
         },
-        {   "Title": "%o: аккумулятор разряжается",
-            "Triggered": false,
+        {   "Title" : "%o: аккумулятор разряжается",
+            "Triggered" : false,
         },
-        {   "Title": "%o: аккумулятор заряжен",
-            "Triggered": false,
+        {   "Title" : "%o: аккумулятор заряжен",
+            "Triggered" : false,
         },
-        {   "Title": "%o: при нажатии кнопки «Назад»",
-            "Triggered": true,
+        {   "Title" : "%o: при нажатии кнопки «Назад»",
+            "Triggered" : true,
         },
-        {   "Title": "%o: при нажатии кнопки «Главный экран»",
-            "Triggered": true,
+        {   "Title" : "%o: при нажатии кнопки «Главный экран»",
+            "Triggered" : true,
         },
-        {   "Title": "%o: при нажатии кнопки «Меню»",
-            "Triggered": true,
+        {   "Title" : "%o: при нажатии кнопки «Меню»",
+            "Triggered" : true,
         },
-        {   "Title": "%o: устройство рутировано?",
-            "Triggered": false,
+        {   "Title" : "%o: устройство рутировано?",
+            "Triggered" : false,
         },
-        {   "Title": "%o: Bluetooth включён?",
-            "Triggered": false,
+        {   "Title" : "%o: Bluetooth включён?",
+            "Triggered" : false,
         },
-        {   "Title": "%o: кнопка «Назад» нажата?",
-            "Triggered": false,
+        {   "Title" : "%o: кнопка «Назад» нажата?",
+            "Triggered" : false,
         },
-        {   "Title": "%o: кнопка «Меню» нажата?",
-            "Triggered": false,
+        {   "Title" : "%o: кнопка «Меню» нажата?",
+            "Triggered" : false,
         },
-        {   "Title": "%o: кнопка %0 нажата?",
-            "Triggered": false,
-            "Parameters": [["Integer", "Код кнопки"]]
+        {   "Title" : "%o: кнопка %0 нажата?",
+            "Triggered" : false,
+            "Parameters" : [["Integer", "Код кнопки"]]
         },
-        {   "Title": "%o: при входящем намерение с действием %0",
-            "Triggered": true,
-            "Parameters": [["Text", "Действие"]]
+        {   "Title" : "%o: при входящем намерение с действием %0",
+            "Triggered" : true,
+            "Parameters" : [["Text", "Действие"]]
         },
-        {   "Title": "%o: при всех входящих намерениях",
-            "Triggered": true
+        {   "Title" : "%o: при всех входящих намерениях",
+            "Triggered" : true
         },
-        {   "Title": "%o: при выборе пункта %0 меню опций",
-            "Triggered": true,
-            "Parameters": [["Text", "ID пункта"]]
+        {   "Title" : "%o: при выборе пункта %0 меню опций",
+            "Triggered" : true,
+            "Parameters" : [["Text", "ID пункта"]]
         },
-        {   "Title": "%o: при выборе любого пункта меню опций",
-            "Triggered": true
+        {   "Title" : "%o: при выборе любого пункта меню опций",
+            "Triggered" : true
         },
-        {   "Title": "%o: при видимой клавиатуре",
-            "Triggered": true
+        {   "Title" : "%o: при видимой клавиатуре",
+            "Triggered" : true
         },
-        {   "Title": "%o: при скрытой клавиатуре",
-            "Triggered": true
+        {   "Title" : "%o: при скрытой клавиатуре",
+            "Triggered" : true
         },
-        {   "Title": "%o: клавиатура видна?",
+        {   "Title" : "%o: клавиатура видна?",
         }
 	],
 
     "Expressions":
     [
-        {   "Title": "GPU_Name$(",
-            "Returns": "Text"
+        {   "Title" : "GPU_Name$(",
+            "Returns" : "Text"
         },
-        {   "Title": "GPU_Vendor$(",
-            "Returns": "Text"
+        {   "Title" : "GPU_Vendor$(",
+            "Returns" : "Text"
         },
-        {   "Title": "PhoneID$(",
-            "Returns": "Text"
+        {   "Title" : "PhoneID$(",
+            "Returns" : "Text"
         },
-        {   "Title": "Operator$(",
-            "Returns": "Text"
+        {   "Title" : "Operator$(",
+            "Returns" : "Text"
         },
-        {   "Title": "StackTrace$(",
-            "Returns": "Text"
+        {   "Title" : "StackTrace$(",
+            "Returns" : "Text"
         },
-        {   "Title": "AppTitle$(",
-            "Returns": "Text"
+        {   "Title" : "AppTitle$(",
+            "Returns" : "Text"
         },
-        {   "Title": "BatteryPercentage(",
-            "Returns": "Integer"
+        {   "Title" : "BatteryPercentage(",
+            "Returns" : "Integer"
         },
-        {   "Title": "ScreenWidth(",
-            "Returns": "Integer"
+        {   "Title" : "ScreenWidth(",
+            "Returns" : "Integer"
         },
-        {   "Title": "ScreenHeight(",
-            "Returns": "Integer"
+        {   "Title" : "ScreenHeight(",
+            "Returns" : "Integer"
         },
-        {   "Title": "DataStorageDirectory$(",
-            "Returns": "Text"
+        {   "Title" : "DataStorageDirectory$(",
+            "Returns" : "Text"
         },
-        {   "Title": "TempPath$(",
-            "Returns": "Text"
+        {   "Title" : "TempPath$(",
+            "Returns" : "Text"
         },
-        {   "Title": "DeviceID$(",
-            "Returns": "Text"
+        {   "Title" : "DeviceID$(",
+            "Returns" : "Text"
         },
-        {   "Title": "PackageName$(",
-            "Returns": "Text"
+        {   "Title" : "PackageName$(",
+            "Returns" : "Text"
         },
-        {   "Title": "ExternalStorageDirectory$(",
-            "Returns": "Text"
+        {   "Title" : "ExternalStorageDirectory$(",
+            "Returns" : "Text"
         },
-        {   "Title": "AppVersion$(",
-            "Returns": "Text"
+        {   "Title" : "AppVersion$(",
+            "Returns" : "Text"
         },
-        {   "Title": "RuntimeVersion$(",
-            "Returns": "Text"
+        {   "Title" : "RuntimeVersion$(",
+            "Returns" : "Text"
         },
-        {   "Title": "AdHeight(",
-            "Returns": "Integer"
+        {   "Title" : "AdHeight(",
+            "Returns" : "Integer"
         },
-        {   "Title": "Renderer$(",
-            "Returns": "Text"
+        {   "Title" : "Renderer$(",
+            "Returns" : "Text"
         },
-        {   "Title": "IntentAction$(",
-            "Returns": "Text"
+        {   "Title" : "IntentAction$(",
+            "Returns" : "Text"
         },
-        {   "Title": "IntentData$(",
-            "Returns": "Text"
+        {   "Title" : "IntentData$(",
+            "Returns" : "Text"
         },
-        {   "Title": "IntentExtra_String$(",
-            "Returns": "Text",
-            "Parameters": [["Text", "Название"]]
+        {   "Title" : "IntentExtra_String$(",
+            "Returns" : "Text",
+            "Parameters" : [["Text", "Название"]]
         },
-        {   "Title": "IntentExtra_Boolean(",
-            "Returns": "Integer",
-            "Parameters": [["Text", "Название"]]
+        {   "Title" : "IntentExtra_Boolean(",
+            "Returns" : "Integer",
+            "Parameters" : [["Text", "Название"]]
         },
-        {   "Title": "IntentExtra_Long(",
-            "Returns": "Integer",
-            "Parameters": [["Text", "Название"]]
+        {   "Title" : "IntentExtra_Long(",
+            "Returns" : "Integer",
+            "Parameters" : [["Text", "Название"]]
         },
-        {   "Title": "MenuItem$(",
-            "Returns": "Text"
+        {   "Title" : "MenuItem$(",
+            "Returns" : "Text"
         },
-        {   "Title": "DeviceApiVersion(",
-            "Returns": "Integer"
+        {   "Title" : "DeviceApiVersion(",
+            "Returns" : "Integer"
         },
-        {   "Title": "Manufacturer$(",
-            "Returns": "Text"
+        {   "Title" : "Manufacturer$(",
+            "Returns" : "Text"
         },
-        {   "Title": "Model$(",
-            "Returns": "Text"
+        {   "Title" : "Model$(",
+            "Returns" : "Text"
         },
-        {   "Title": "Product$(",
-            "Returns": "Text"
+        {   "Title" : "Product$(",
+            "Returns" : "Text"
         },
-        {   "Title": "PublicStorageDirectory(",
-            "Returns": "Text",
-            "Parameters": [["Text", "Тип названия (Изображения, Видео, Документы, DCIM, Загрузки, Музыка, и т. д.)"]]
+        {   "Title" : "PublicStorageDirectory(",
+            "Returns" : "Text",
+            "Parameters" : [["Text", "Тип названия (Изображения, Видео, Документы, DCIM, Загрузки, Музыка, и т. д.)"]]
         },
-        {   "Title": "DeviceSerialNumber$(",
-            "Returns": "Text"
+        {   "Title" : "DeviceSerialNumber$(",
+            "Returns" : "Text"
         },
-        {   "Title": "UserGoogleAccount$(",
-            "Returns": "Text"
+        {   "Title" : "UserGoogleAccount$(",
+            "Returns" : "Text"
         }
 	]
 }

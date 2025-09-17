@@ -1,5 +1,6 @@
 {
     "general": {
+        "OpenGL MS3D": "OpenGL: MilkShape 3D",
         "%o: On animation finished": "%o: анимация завершена",
         "%o: On model loaded": "%o: модель загрузилась",
         "%o: On model loading failed": "%o: загрузка модели не удалась",
@@ -59,7 +60,6 @@
         "On model loaded": "Модель загружена?",
         "On object loop": "Прошёл цикл объекта?",
         "On texture handle request": "Запрошена обработка текстуры?",
-        "OpenGL MS3D": "OpenGL — MilkShape 3D",
         "Pass requested texture handle: %0": "Переназначить обработку запрошенной текстуры: %0",
         "Pass texture handle...": "Переназначить обработку текстуры",
         "Pitch...": "Шаг",
