@@ -1,0 +1,215 @@
+name: Выпуск
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: 'Ветка выпуска'
+        required: true
+        default: 'beta'
+        type: choice
+        options:
+          - 'beta'
+          - 'release'
+  pull_request:
+    paths:
+      - 'ru-ru/**'
+  push:
+    paths:
+      - 'ru-ru/**'
+
+env:
+  REPO_NAME: ${{ github.repository }}
+  COMMON_DIR: ru-ru/common
+  STRICT_DIR: ru-ru/strict
+  COMFORT_DIR: ru-ru/comfort
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Клонирование репозитория
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Установка ветки выпуска
+        id: set-release-type
+        run: |
+          if [[ "${{ github.event_name }}" == "push" && "${{ github.ref }}" == "refs/heads/main" ]]; then
+            echo "release_type=beta" >> $GITHUB_ENV
+            echo "Event: Push to main branch. Set release_type to beta."
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            echo "release_type=${{ github.event.inputs.release_type }}" >> $GITHUB_ENV
+            echo "Event: Workflow dispatch. Set release_type to ${{ github.event.inputs.release_type }}."
+          else
+            echo "release_type=beta" >> $GITHUB_ENV
+            echo "Event: Other. Set release_type to beta."
+          fi
+
+      - name: Определение следующей релизной версии
+        id: determine-next-release
+        run: |
+          last_release_tag=$(git tag --list | grep -E '^[0-9]+$' | sort -V | tail -n 1)
+          
+          if [ -z "$last_release_tag" ]; then
+            echo "last_release_tag не найден. Используем 0."
+            last_release_tag=0
+          fi
+          
+          next_release_number=$((last_release_tag + 1))
+          echo "next_release_number=$next_release_number" >> $GITHUB_ENV
+          echo "Следующий номер релизной версии: $next_release_number"
+
+      - name: Определение следующего тега
+        id: determine-tag
+        run: |
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            base_release_number=${{ env.next_release_number }}
+            
+            # поиск существующих тегов бета-версий для базовой релизной версии
+            existing_beta_tags=$(git tag --list "${base_release_number}-B*" )
+            
+            if [ -z "$existing_beta_tags" ]; then
+              beta_number=1
+            else
+              max_beta=$(echo "$existing_beta_tags" | sed -E "s/${base_release_number}-B([0-9]+)/\1/" | sort -n | tail -n1)
+              beta_number=$((max_beta + 1))
+            fi
+            
+            next_tag="${base_release_number}-B${beta_number}"
+            echo "next_tag=${next_tag}" >> $GITHUB_ENV
+            echo "Следующий тег для бета-выпуска: $next_tag"
+          else
+            next_tag="${{ env.next_release_number }}"
+            echo "next_tag=${next_tag}" >> $GITHUB_ENV
+            echo "Следующий тег для релизного выпуска: $next_tag"
+          fi
+
+      - name: Проверка существующего выпуска с таким тегом
+        id: check-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${{ env.next_tag }}"
+          echo "Проверка существования релиза с тегом: $tag"
+          release_exists=$(gh release view "$tag" --json tagName --jq '.tagName' || echo "not_found")
+          
+          if [[ "$release_exists" != "not_found" ]]; then
+            echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег."
+            if [[ "${{ env.release_type }}" == "beta" ]]; then
+              IFS='-' read -r base release_num <<< "$tag"
+              beta_num=$(echo "$release_num" | sed -E "s/B([0-9]+)/\1/")
+              new_beta_num=$((beta_num + 1))
+              new_tag="${base}-B${new_beta_num}"
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после увеличения: $new_tag"
+            else
+              new_tag=$((tag + 1))
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после увеличения: $new_tag"
+            fi
+          else
+            echo "Релиз с тегом $tag не найден."
+          fi
+
+      - name: Повторная проверка существования после увеличения тега
+        if: env.new_tag != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag="${{ env.new_tag }}"
+          echo "Повторная проверка релиза с тегом: $tag"
+          release_exists=$(gh release view "$tag" --json tagName --jq '.tagName' || echo "not_found")
+          
+          if [[ "$release_exists" != "not_found" ]]; then
+            echo "Релиз с тегом $release_exists уже существует. Увеличиваем тег снова."
+            if [[ "${{ env.release_type }}" == "beta" ]]; then
+              IFS='-' read -r base release_num <<< "$tag"
+              beta_num=$(echo "$release_num" | sed -E "s/B([0-9]+)/\1/")
+              new_beta_num=$((beta_num + 1))
+              new_tag="${base}-B${new_beta_num}"
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после повторного увеличения: $new_tag"
+            else
+              new_tag=$((tag + 1))
+              echo "new_tag=${new_tag}" >> $GITHUB_ENV
+              echo "Новый тег после повторного увеличения: $new_tag"
+            fi
+          else
+            echo "Релиз с тегом $tag не найден после увеличения."
+          fi
+
+      - name: Установка окончательного тега
+        run: |
+          if [ -n "${{ env.new_tag }}" ]; then
+            echo "Используем тег: ${{ env.new_tag }}"
+            echo "final_tag=${{ env.new_tag }}" >> $GITHUB_ENV
+          else
+            echo "Используем тег: ${{ env.next_tag }}"
+            echo "final_tag=${{ env.next_tag }}" >> $GITHUB_ENV
+          fi
+
+      - name: Формирование названия выпуска
+        id: release-name
+        run: |
+          if [[ "${{ env.release_type }}" == "beta" ]]; then
+            if [[ "${{ env.final_tag }}" =~ ^([0-9]+)-B([0-9]+)$ ]]; then
+              base_release=${BASH_REMATCH[1]}
+              beta_num=${BASH_REMATCH[2]}
+              release_name="${beta_num}-я бета ${base_release}-го релиза"
+            else
+              release_name="${{ env.final_tag }}-й бета-выпуск"
+            fi
+          else
+            release_name="${{ env.final_tag }}-й релиз"
+          fi
+          echo "release_name=$release_name" >> $GITHUB_ENV
+          echo "Название выпуска: $release_name"
+
+      - name: Создание временных каталогов
+        run: |
+          mkdir -p temp/strict/ru-ru
+          mkdir -p temp/comfort/ru-ru
+
+      - name: Подготовка архива строгой локализации
+        run: |
+          # копирование содержимого strict
+          cp -r "$STRICT_DIR"/* temp/strict/ru-ru/
+          # копирование содержимого common
+          cp -r "$COMMON_DIR"/* temp/strict/ru-ru/
+
+      - name: Подготовка архива удобной локализации
+        run: |
+          # копирование содержимого comfort
+          cp -r "$COMFORT_DIR"/* temp/comfort/ru-ru/
+          # копирование содержимого common
+          cp -r "$COMMON_DIR"/* temp/comfort/ru-ru/
+
+      - name: Архивация вариантов
+        run: |
+          strict_archive="CF2.5_ru-RU_${{ env.final_tag }}_Strict.zip"
+          comfort_archive="CF2.5_ru-RU_${{ env.final_tag }}_Comfort.zip"
+          
+          echo "Создание архива строгой локализации: $strict_archive"
+          cd temp/strict && zip -r "../../$strict_archive" * && cd ../..
+
+          echo "Создание архива удобной локализации: $comfort_archive"
+          cd temp/comfort && zip -r "../../$comfort_archive" * && cd ../..
+          
+          echo "strict_archive=$strict_archive" >> $GITHUB_ENV
+          echo "comfort_archive=$comfort_archive" >> $GITHUB_ENV
+
+      - name: Создание выпуска
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.final_tag }}
+          files: |
+            ${{ env.strict_archive }}
+            ${{ env.comfort_archive }}
+          name: "${{ env.release_name }}"
+          body: "Автоматический ${{ env.release_type == 'beta' && 'бета-' || '' }}выпуск.\n\nДоступно два варианта локализации:\n* строгая (strict) — более строгий в соответствии со значением терминов перевод,\n* удобная (comfort) — более удобный для использования перевод."
+          prerelease: ${{ env.release_type == 'beta' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
