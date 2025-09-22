@@ -117,8 +117,11 @@
 * [Donation Alerts](https://www.donationalerts.com/r/deflecta),
 * [ЮMoney](https://yoomoney.ru/to/410015215253910).
 
-## На других ресурсах
+## Остальные ссылки
 
+* [GitHub](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Localization),
+* [GitFlic](https://gitflic.ru/project/dflecta/clickteam-fusion-2-5-russian-localization),
+* [SourceCraft](https://sourcecraft.dev/muhutdinov-rushan/clickteam-fusion-2-5-russian-localization),
 * [Game Jolt](https://gamejolt.com/games/fusion-ru/625501),
 * [официальный сайт](https://rushan.neocities.org/fusion),
 * [Яндекс Диск](https://disk.yandex.ru/d/sWhcljP7rKj5Sw),
