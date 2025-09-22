@@ -2,7 +2,7 @@
     "version" : 1,
     "lang" : 1049,
     "general" : {
-        "360° Movement Object" : "Движение на 360°",
+        "360° Movement Object" : "Старый объект движения на 360°",
         "Acceleration " : "Ускорение",
         "Deceleration " : "Замедление",
         "Is movement paused? " : "Движение приостановлено?",

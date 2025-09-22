@@ -51,8 +51,12 @@
 	},
 	"menu_20000" : {
 		"Default parameters" : "Параметры по умолчанию",
-		"Move object (nummeric parameters)" : "Переместить объект (числовые параметры)",
 		"Move object" : "Переместить объект",
+		"Move object (nummeric parameters)" : "Переместить объект (числовые параметры)",
+		"Pause object" : "Приостановить объект",
+		"Pause all objects" : "Приостановить все объекты",
+		"Resume object" : "Возобновить объект",
+		"Resume all objects" : "Возобновить все объекты",
 		"Object parameters" : "Параметры объекта",
 		"Reverse object" : "Обратить движение объекта",
 		"Set amplitude of object" : "Установить амплитуду объекта",

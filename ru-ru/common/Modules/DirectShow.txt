@@ -39,7 +39,7 @@
 		"Choose the file to play" : "Выбрать файл для воспроизведения",
 		"Current position: %i" : "Текущая позиция: %i",
 		"DVD" : "DVD",
-		"Direct Show" : "Direct Show",
+		"Direct Show" : "DirectShow",
 		"Disabled at start" : "Отключено при запуске",
 		"Displays a border around the window" : "Отображает границу вокруг окна",
 		"File to play" : "Файл для воспроизведения",

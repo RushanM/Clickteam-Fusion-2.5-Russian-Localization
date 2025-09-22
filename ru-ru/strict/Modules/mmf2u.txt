@@ -5623,6 +5623,7 @@
 		"&Import Settings" : "Загрузить настройки интерфейса из файла",
 		"&Layers Toolbar" : "Слои",
 		"&Library Window" : "Окно библиотеки",
+		"&Skin editor" : "Редактор темы",
 		"&Navigate Toolbar" : "Панель инструментов",
 		"&Properties" : "Свойства",
 		"&Run Toolbar" : "Панель инструментов запуска",

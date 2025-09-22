@@ -22,7 +22,7 @@
 		"6V4" : "6V4",
 		"Alignment (0:Bottom, 1:Center, 2:Top)" : "Выравнивание (0: по низу, 1: по центру, 2: по верху)",
 		"Android Dialogs Options" : "Параметры диалоговых окон Android",
-		"Android New Dialog Control v2" : "Android: новое управление диалоговыми окнами версии 2",
+		"Android New Dialog Control v2" : "Android: управление диалоговыми окнами 2",
 		"Android New Dialog control." : "Новое управление диалоговыми окнами Android.",
 		"Bank of Images to use as icons" : "Группа картинок для использования их в качестве значков.",
 		"Buttons text list (separated by comma, max: 3 buttons, blank for no button) representing POSITIVE-NEUTRAL-NEGATIVE" : "Список текста кнопок (разделяется через запятую, максимально есть 3 кнопки. Оставьте пустым, если на месте не нужна кнопка)",

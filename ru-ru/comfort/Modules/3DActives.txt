@@ -2,7 +2,7 @@
     "version": 1,
     "lang": 1049,
     "general": {
-        "3D Actives": "3D-активы",
+        "3D Actives": "Трёхмерные активы",
         "Turns normal active object to (flat) 3D sprites": "Превращает обычные активы в (плоские) спрайты с тремя измерениями.",
         "Center position": "Позиция по центру",
         "Disable scaling": "Отключить масштабирование",
