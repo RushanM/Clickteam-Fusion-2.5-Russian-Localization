@@ -6,7 +6,7 @@
 		"%o : %0 is over row %1 " : "%o : %0 перекрывает ряд %1 ",
 		"%o : %0, %1 is over cell %2, %3 " : "%o : %0, %1 перекрывает ячейку %2, %3 ",
 		"Clear all cells" : "Очистить все ячейки",
-		"Easy Grid object" : "Лёгкая сетка",
+		"Easy Grid object" : "Простая сетка",
 		"Enter cell column" : "Введите столбец ячейки",
 		"Enter cell height" : "Введите высоту ячейки",
 		"Enter cell row" : "Введите ряд ячейки",
@@ -77,6 +77,6 @@
 		"Limitations" : "Ограничения (пределы)",
 		"OK" : "ОК",
 		"Row limit:" : "     Ряда:",
-		"The Easy Grid object" : "Лёгкая сетка",
+		"The Easy Grid object" : "Простая сетка",
 	}
 }

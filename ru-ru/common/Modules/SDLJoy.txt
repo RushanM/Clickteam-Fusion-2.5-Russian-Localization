@@ -10,7 +10,7 @@
         "Device removed" : "Устройство удалено",
         "Device is currently connected" : "Устройство в настоящее время подключено",
         "Device has a GameController mapping" : "Устройство имеет сопоставление GameController",
-        "Device is treated as GameController" : "Устройство рассматривается как GameController",
+        "Device is treated as a GameController" : "Устройство рассматривается как GameController",
         "Device can rumble" : "Устройство может вибрировать",
         "Device triggers can rumble" : "Триггеры устройства могут вибрировать",
         "Device has LED" : "Устройство имеет светодиод",

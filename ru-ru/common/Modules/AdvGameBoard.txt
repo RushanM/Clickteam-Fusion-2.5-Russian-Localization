@@ -222,7 +222,7 @@
 		"Snap Y-coordinate to grid" : "Привязать координату Y к сетке",
 	},
 	"dialog_20003" : {
-		"Advanced Game Board Object" : "Расширенная настольная игра",
+		"Advanced Game Board Object" : "Продвинутая реализация настольной игры",
 		"Advanced game board object" : "Настольная игра",
 		"By Andos" : "От Andos",
 		"Cancel" : "Отмена",

@@ -7,7 +7,7 @@
 		"Detector ID" : "Идентификатор детектора",
 		"Detector id" : "Идентификатор детектора",
 		"Detector number %0 is overlaping an obscale" : "Детектор номер: %0 перекрывает препятствие",
-		"Easy Detector" : "Лёгкий детектор",
+		"Easy Detector" : "Простой детектор",
 		"Object is overlapping an obscale" : "Объект перекрывает препятствие",
 		"Select %0 as detect object" : "Выбрать %0 как объект детектора",
 		"Select object" : "Выбрать объект",

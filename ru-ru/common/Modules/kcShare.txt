@@ -20,7 +20,7 @@
 		"Index" : "Индекс",
 		"Index of the value (zero based)" : "Индекс значения (с нуля)",
 		"ShareMem object" : "Объект Общей Памяти",
-		"Shared Data" : "Общие Данные"
+		"Shared Data" : "Общие данные"
 	},
 	"dialog_102" : {
 		"Index :" : "Индекс :",

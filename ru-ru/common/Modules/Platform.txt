@@ -21,7 +21,7 @@
 		"Maximum Y velocity" : "Максимальная скорость по Y",
 		"Object" : "Объект",
 		"Pause movement" : "Приостановить движение",
-		"Platform Movement object" : "Движение платформы",
+		"Platform Movement object" : "Движение по платформам",
 		"Selected object overlaps a jump through platform" : "Выбранный объект перекрывает платформу прыжком через неё",
 		"Selected object overlaps an obstacle" : "Выбранный объект перекрывает препятствие",
 		"Set additional X velocity to %0" : "Установить добавляемую скорость Х: %0",

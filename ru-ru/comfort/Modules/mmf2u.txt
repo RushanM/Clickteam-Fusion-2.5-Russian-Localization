@@ -2303,7 +2303,7 @@
 		"Paste Tool\nPaste" : "Вставить\nВставить",
 		"Paste error" : "Ошибка вставки",
 		"Paste image into background" : "Вставить изображение в фон",
-		"Path" : "Путь",
+		"Path" : "По траектории",
 		"Path movement" : "Движение по траектории",
 		"Path movement of \"%s\" has reached a named node" : "Движущийся по траектории «%s» достиг узла с названием",
 		"Path movement of %o has reached node %0" : "Движущийся по траектории %o достиг узла с названием %0",
