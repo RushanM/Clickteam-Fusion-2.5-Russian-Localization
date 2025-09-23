@@ -2,9 +2,9 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"%o: a picture is loaded" : "%o: изображение загружено",
-		"%o: picture horizontally flipped" : "%o: изображение отражено по горизонтали",
-		"%o: picture vertically flipped" : "%o: изображение отражено по вертикали",
+		"%o: a picture is loaded" : "%o: картинка загружена",
+		"%o: picture horizontally flipped" : "%o: картинка отражена по горизонтали",
+		"%o: picture vertically flipped" : "%o: картинка отражена по вертикали",
 		"%o: wrap mode is ON" : "%o: включён режим обрезки",
 		"Active Picture" : "Активная картинка",
 		"Active Picture object" : "Активная картинка",
@@ -24,12 +24,12 @@
 		"Link angle to object's direction" : "Связать угол с направлением объекта",
 		"Loads the image in system memory even in HWA mode. Speeds up the create backdrop action." : "Загрузка изображения в системную память, даже в режиме HWA. Ускоряет создание фоновых действий.",
 		"Look in direction of (%0, %1)" : "Смотреть в направлении (%0, %1)",
-		"New picture : %0" : "Новое изображение : %0",
-		"New picture from selector" : "Новое изображение из селектора",
+		"New picture : %0" : "Новая картинка: %0",
+		"New picture from selector" : "Новая картинка из селектора",
 		"None" : "Никак",
 		"Percentage" : "Процент",
-		"Picture Resize" : "Изменение размера изображения",
-		"Please select a picture" : "Пожалуйста, выберите изображение",
+		"Picture Resize" : "Изменение размера картинки",
+		"Please select a picture" : "Пожалуйста, выберите картинку",
 		"Resample" : "Передискретизация",
 		"Semi-transparency ratio (0 to 100)" : "Коэффициент полупрозрачности (0 до 100)",
 		"Set Angle to %0°" : "Установить угол на %0°",
@@ -60,10 +60,10 @@
 		"Wrap mode ON" : "Включить режим обрезки",
 		"X coordinate" : "Координата X",
 		"X coordinate of destination rectangle" : "Координата X прямоугольника назначения",
-		"X coordinate of picture rectangle to paste" : "Координата X прямоугольника изображения, для вставки",
+		"X coordinate of picture rectangle to paste" : "Координата X прямоугольника картинки, для вставки",
 		"Y coordinate" : "Координата Y",
 		"Y coordinate of destination rectangle" : "Координата Y прямоугольника назначения",
-		"Y coordinate of picture rectangle to paste" : "Координата Y прямоугольника изображения, для вставки",
+		"Y coordinate of picture rectangle to paste" : "Координата Y прямоугольника картинки, для вставки",
 		"Zoom to rectangle (%0, %1), Enlarge if smaller (%2)" : "Масштаб прямоугольника (%0, %1), увеличить если меньше (%2)",
 		"Zoom: %0/100" : "Масштаб: %0/100",
 		"Zoom: Set height to %0" : "Масштаб: установить высоту %0",
@@ -77,7 +77,7 @@
 		"&Horizontally" : "Горизонтально",
 		"&Hot Spot" : "Горячая точка",
 		"&Link to object's direction" : "Связь с направлением объекта",
-		"&New picture" : "Новое изображение",
+		"&New picture" : "Новая картинка",
 		"&Offset" : "Смещение",
 		"&On" : "Вкл",
 		"&Percentage" : "Процент",
@@ -99,7 +99,7 @@
 		"Fas&t" : "Быстро",
 		"L&eft-center" : "Слева по центру",
 		"L&ook in direction of..." : "Смотреть в направлении…",
-		"New &picture from selector" : "Новое изображение из селектора",
+		"New &picture from selector" : "Новая картинка из селектора",
 		"O&ff" : "Выключить",
 		"O&n (default)" : "Включить (по умолчанию)",
 		"R&ight-center" : "Справа по центру",
@@ -111,9 +111,9 @@
 		"Top-&right" : "Сверху справа"
 	},
 	"menu_20001" : {
-		"A picture is loaded ?" : "Изображение загружено?",
-		"Is flipped horizontally ?" : "Отражено вертикально?",
-		"Is flipped vertically ?" : "Отражено горизонтально?",
+		"A picture is loaded ?" : "Картинка загружена?",
+		"Is flipped horizontally ?" : "Отражена по горизонтали?",
+		"Is flipped vertically ?" : "Отражена по вертикали?",
 		"Is wrap mode ON ?" : "Режим обрезки Вкл?"
 	},
 	"menu_20002" : {
@@ -131,6 +131,6 @@
 		"Get Semitransparency ratio" : "Получить коэффициент прозрачности",
 		"Get Vertical Offset" : "Получить вертикальное смещение",
 		"Get Vertical Zoom Factor" : "Получить коэффициент вертикального масштаба",
-		"Get picture name" : "Получить название изображения"
+		"Get picture name" : "Получить название картинки"
 	}
 }

@@ -340,7 +340,7 @@
 		"01Start loop %s %s times" : "Запустить цикл %0 %1 раз",
 		"01Stop loop %s" : "01Остановить цикл %0",
 		"01Stop sample %s" : "01Остановить аудио «%0»",
-		"01Subtract %s from Counter" : "01Вычесть %0 из текущего значения счётчика",
+		"01Subtract %s from Counter" : "Вычесть %0 из текущего значения счётчика",
 		"01Subtract %s from Number of Lives" : "01Вычесть %0 из жизней",
 		"01Subtract %s from Score" : "01Вычесть %s из очков",
 		"01Timer equals %s" : "01Значение таймера равно %s",

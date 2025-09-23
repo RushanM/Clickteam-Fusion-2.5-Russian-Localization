@@ -92,7 +92,7 @@
 		"Open" : "Открыть",
 		"Open URL" : "Открыть URL",
 		"Open connection at start" : "Открыть соединение при запуске",
-		"Open the connection when the frame starts" : "Открыть соединение при старте сцены",
+		"Open the connection when the frame starts" : "Открыть соединение при запуске сцены",
 		"Options" : "Настройки",
 		"Out of memory." : "Недостаточно памяти.",
 		"Password" : "Пароль",

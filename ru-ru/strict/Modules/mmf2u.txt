@@ -340,7 +340,7 @@
 		"01Start loop %s %s times" : "Запустить цикл %0 %1 раз",
 		"01Stop loop %s" : "01Остановить цикл %0",
 		"01Stop sample %s" : "01Остановить аудио «%0»",
-		"01Subtract %s from Counter" : "01Вычесть %0 из текущего значения счётчика",
+		"01Subtract %s from Counter" : "Вычесть %0 из текущего значения счётчика",
 		"01Subtract %s from Number of Lives" : "01Вычесть %0 из жизней",
 		"01Subtract %s from Score" : "01Вычесть %s из очков",
 		"01Timer equals %s" : "01Значение таймера равно %s",
@@ -2345,7 +2345,7 @@
 		"Pick and count objects" : "Выбрать и посчитать объекты",
 		"Pick objects with reference to their value" : "Выбрать объекты на основе их значений",
 		"Pick or count   " : "Выбрать или посчитать   ",
-		"Picture" : "Изображение",
+		"Picture" : "Картинка",
 		"Picture frame" : "Кадр картинки",
 		"Pixel shader version" : "Версия пиксельного шейдера",
 		"DPI scale" : "Масштаб DPI (точек на дюйм)",
@@ -3102,7 +3102,7 @@
 		"This file cannot be registered." : "Этот файл не может быть сохранён.",
 		"This file contains invalid data." : "Этот файл содержит неверные данные.",
 		"This file is already in the current list." : "Этот файл уже присутствует в списке.",
-		"This file is not a 256-color picture file." : "Этот файл не является изображением в 256 цветов.",
+		"This file is not a 256-color picture file." : "Этот файл не является картинкой в 256 цветов.",
 		"This license will expire in %d days." : "Эта лицензия истечет через %d дней.",
 		"This message is displayed if you have selected the \"Do start the uninstallation process if files are in use\" option, and files are currently in use." : "Это сообщение появляется, если вы выбрали: \"Не начинайте процесс удаления, если файлы находятся в процессе использования \", и файлы используются в настоящее время.",
 		"This message is displayed to the right of the filename in the report list, when the file cannot be installed. The installation stops, this is considered as a fatal error." : "Это сообщение отображается справа от названия файла в списке отчётов, когда файл не может быть установлен. Если установка останавливается, это считается фатальной ошибкой.",
@@ -4094,7 +4094,7 @@
 		"Cancel" : "Отмена",
 		"OK" : "ОК",
 		"Palette" : "Палитра",
-		"Picture Editor" : "Редактор изображений"
+		"Picture Editor" : "Редактор картинок"
 	},
 	"dialog_4135": {
 		"Opacity" : "Прозрач.",
@@ -4192,8 +4192,8 @@
 		"Color 2" : "Цвет 2",
 		"OK" : "ОК",
 		"Options" : "Параметры",
-		"Picture Editor Preferences" : "Настройки в редакторе изображения",
-		"Right Click" : "Клик правой кнопкой мыши"
+		"Picture Editor Preferences" : "Настройки в редакторе картинок",
+		"Right Click" : "ПКМ"
 	},
 	"dialog_4166": {
 		"&Box mode" : "Режим окна",
@@ -5157,7 +5157,7 @@
 		"Draw" : "Рисовать",
 		"Edit Button Image" : "Редактировать изображение кнопки",
 		"OK" : "ОК",
-		"Picture:" : "Изображение:",
+		"Picture:" : "Картинка:",
 		"Preview: " : "Предпросмотр : ",
 		"Tools:" : "Инструменты:"
 	},
@@ -6324,7 +6324,7 @@
 		"Properties" : "Свойства",
 		"Rename" : "Переименовать",
 		"Run this frame" : "Запустить эту сцену",
-		"Select a new picture" : "Выбрать новое изображение",
+		"Select a new picture" : "Выбрать новую картинку",
 		"Sort" : "Сортировать"
 	},
 	"menu_9105": {

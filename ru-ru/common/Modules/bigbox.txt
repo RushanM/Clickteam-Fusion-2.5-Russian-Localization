@@ -1,0 +1,11 @@
+﻿{
+    "version" : 1,
+    "lang" : 1049,
+    "general" : {
+        "The Big Box" : "Большая коробка",
+        "The first extension I've made ! It contains a lot of various functions but some are very useful !!" : "Моё первое расширение! Оно содержит множество различных функций, некоторые из которых очень полезны!!",
+        "Created by Phanoo" : "Создано Phanoo",
+        "The first extension I've made ! It contains a lot of various functions but some are very useful !!\n\n\n\nCreated by Phanoo\ngfactphn@gmail.com" : "Моё первое расширение! Оно содержит множество различных функций, некоторые из которых очень полезны!!\n\n\n\nСоздано Phanoo\ngfactphn@gmail.com",
+        "Copyright © 2006 Phanoo" : "Авторское право © принадлежит Phanoo с 2006 года"
+    }
+}

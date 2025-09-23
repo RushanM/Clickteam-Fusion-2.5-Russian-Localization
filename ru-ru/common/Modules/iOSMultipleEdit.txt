@@ -64,8 +64,8 @@
 		"Text" : "Текст",
 		"Text color" : "Цвет текста",
 		"URL" : "URL",
-		"Uncheck to hide the object at start of frame" : "Снимите этот флажок, чтобы скрыть объект при старте сцены",
-		"Visible at start" : "Видимый при старте сцены",
+		"Uncheck to hide the object at start of frame" : "Снимите этот флажок, чтобы скрыть объект при запуске сцены",
+		"Visible at start" : "Видимый при запуске сцены",
 		"Yahoo" : "Yahoo",
 		"iOS Multiple Line Editbox" : "iOS Много-строчное окно редактирования"
 	},

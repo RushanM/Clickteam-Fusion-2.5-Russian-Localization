@@ -17,7 +17,7 @@
 		"Final Y" : "Конечная Y",
 		"General Properties" : "Основные свойства",
 		"Initial angle of the sine wave in degrees." : "Начальный угол синусоиды в градусах.",
-		"Initially moving at start of frame." : "Начальное движение при старте сцены.",
+		"Initially moving at start of frame." : "Начальное движение при запуске сцены.",
 		"Line Properties" : "Свойства линии",
 		"Move at Start" : "Начать движение при запуске",
 		"Name of the extension used to interact with this movement." : "Название расширения, которое используется для взаимодействия с этим движением.",

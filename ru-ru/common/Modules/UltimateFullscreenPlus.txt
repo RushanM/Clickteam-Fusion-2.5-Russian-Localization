@@ -1,0 +1,13 @@
+﻿{
+	"version" : 1,
+	"lang" : 1049,
+	"general" : {
+		"Ultimate Fullscreen PLUS" : "Совершенный полноэкранный режим +",
+		"Version 1.2. A better fullscreen solution that preserves aspect ratio and allows for widescreen configurations such as \"vert-\" and \"hor+\"." : "Версия 1.2. Более лучшее решение применения полноэкранного режима, которое сохраняет соотношение сторон и позволяет использовать конфигурации широкоэкранного режима, такие как «верт-» и «гор+».",
+		"Version 1.2.  A better fullscreen solution that preserves aspect ratio and allows for widescreen configurations such as \"vert-\" and \"hor+\"." : "Версия 1.2. Более лучшее решение применения полноэкранного режима, которое сохраняет соотношение сторон и позволяет использовать конфигурации широкоэкранного режима, такие как «верт-» и «гор+».",
+		"Unofficial update by NaitorStudios" : "Неофициальное обновление от NaitorStudios",
+		"Originally made by Sebastian Janisz" : "Изначально создано Себастьяном Янишем",
+		"Don't listen for screen maximize" : "Не ждать сигнала для увеличения экрана",
+		"Listen for screen maximize (default)" : "Ждать сигнала для увеличения экрана (по умолчанию)",
+	}
+}

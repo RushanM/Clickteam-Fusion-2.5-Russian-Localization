@@ -6,7 +6,7 @@
 		"Active at start" : "Активен при запуске",
 		"Advanced" : "Расширенные",
 		"Attracts objects around itself" : "Притягивать объекты вокруг себя",
-		"Check this box to make the magnet active at start of frame" : "Выберите эту опцию, чтобы магнит был активен при старте сцены",
+		"Check this box to make the magnet active at start of frame" : "Выберите эту опцию, чтобы магнит был активен при запуске сцены",
 		"Directions" : "Направления",
 		"Directions of the magnet" : "Направления магнита",
 		"Engine ID" : "Идентификатор движка",

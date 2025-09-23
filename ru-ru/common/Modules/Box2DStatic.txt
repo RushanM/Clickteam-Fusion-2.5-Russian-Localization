@@ -17,7 +17,7 @@
 		"Check to enable automatic rotations of the image" : "Выберите эту опцию, чтобы включить автоматическое вращение изображения",
 		"Check to resample the image of the object when rotating it (slower for large number of objects)." : "Установите для передискретизации изображения при вращении (медленнее при большом количестве объектов).",
 		"Choose the percentage of the world's gravity applied to this object" : "Введите процент гравитации, применительно к этому объекту",
-		"Choose the type of joint to create for this object at start of frame" : "Выберите тип соединения, чтобы создать этот объект при старте сцены",
+		"Choose the type of joint to create for this object at start of frame" : "Выберите тип соединения, чтобы создать этот объект при запуске сцены",
 		"Choose where to create the joint" : "Выберите где создать соединение",
 		"Circle" : "Круг",
 		"Collision shape" : "Форма столкновения",

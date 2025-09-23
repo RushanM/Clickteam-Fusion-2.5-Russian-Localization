@@ -25,6 +25,6 @@
 		"Step Size in Y" : "Размер шага по Y",
 		"The direction in which all invaders will move at initially." : "Направление в котором Захватчики двигаются при запуске.",
 		"Version" : "Версия",
-		"Will the invaders be moving at start of frame." : "Указывает, будут ли захватчики перемещаються при старте сцены."
+		"Will the invaders be moving at start of frame." : "Указывает, будут ли захватчики перемещаються при запуске сцены."
 	}
 }

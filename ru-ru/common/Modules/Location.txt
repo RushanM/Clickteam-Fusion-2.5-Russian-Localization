@@ -14,7 +14,7 @@
 		"Force location retrieval" : "Принудительный поиск места",
 		"Hundred meters" : "Сто метров",
 		"Kilometer" : "Километр",
-		"Location object" : "Местоположение (Объект )",
+		"Location object" : "Местоположение",
 		"Nearest ten meters" : "Ближайшие десять метров",
 		"Retrieves the current location from the GPS on devices that support it (such as the iPhone or Android)." : "Получает текущее местоположение с GPS на устройствах, которые поддерживают его (например, iPhone или Android).",
 		"Set distance filter to %0" : "Установить фильтр расстояния %0",

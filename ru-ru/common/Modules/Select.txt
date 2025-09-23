@@ -21,7 +21,7 @@
 		"Enter the Alt. Value (0-25)" : "Введите переменное значение (0-25)",
 		"Fixed Value of Object" : "Фиксированное значение объекта",
 		"Name of Object" : "Название объекта",
-		"Select Object Extension" : "Выбор объекта (расширение)",
+		"Select Object Extension" : "Выбор объекта",
 		"Select Object Extension v0.11 Beta" : "Выбор объекта (расширение) в0.11 Бета",
 		"Selects objects through conditions such as 'Highest alterable value A'" : "Выбор объектов, через условия, такие как «Наибольшее переменное значение А»",
 	},

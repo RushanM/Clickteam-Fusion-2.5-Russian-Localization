@@ -27,7 +27,7 @@
 		"Lower repetition boundary" : "Повторение нижней границы",
 		"Offset" : "Смещение",
 		"Parallax images" : "Изображение параллакса",
-		"Parallaxer" : "Параллакс 2Д в 3Д",
+		"Parallaxer" : "Параллакс",
 		"Parallaxer Object - By Anders Riggelsen" : "Параллаксер (объект). Автор: Anders Riggelsen.",
 		"position of line" : "позиция линии",
 		"Provides a more natural scroll on parallax-lines with equal lengths, but accumulates errors the more you scroll." : "Обеспечивает более естественное движение на линии параллакса с одинаковой длинной, но накапливает больше ошибок при движении.",
@@ -65,7 +65,7 @@
 		"Vertical" : "Вертикально",
 		"Vertical direction" : "Вертикальное направление",
 		"When enabled, the effect will remain stationatory around the Z-Length." : "Если включена, то эффект будет оставаться неподвижным вокруг Z-Длины.",
-		"When enabled, the parallaxer object will automatically scroll when your game scrolls." : "Если эта функция включена, объект ‘Параллакс 2Д в 3Д’ будет автоматически двигаться, когда ваши игры двигаются.",
+		"When enabled, the parallaxer object will automatically scroll when your game scrolls." : "Если эта функция включена, объект «Параллакс» будет автоматически двигаться, когда ваши игры двигаются.",
 		"Z-Length" : "Z-Длина",
 	},
 	"menu_101" : {

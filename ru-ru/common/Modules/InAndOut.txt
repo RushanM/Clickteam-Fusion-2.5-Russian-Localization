@@ -2,8 +2,8 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"Check this box to have the object move when the frame starts" : "Выберите эту опцию, чтобы объект двигался при старте сцены",
-		"Check this box to have the object positionned out of the frame at start of frame" : "Выберите эту опцию, чтобы объект был расположен за пределами сцены при старте сцены",
+		"Check this box to have the object move when the frame starts" : "Выберите эту опцию, чтобы объект двигался при запуске сцены",
+		"Check this box to have the object positionned out of the frame at start of frame" : "Выберите эту опцию, чтобы объект был расположен за пределами сцены при запуске сцены",
 		"Choose the type of the movement" : "Выбрать тип движения",
 		"Destination X" : "Направление Х",
 		"Destination Y" : "Направление Y",

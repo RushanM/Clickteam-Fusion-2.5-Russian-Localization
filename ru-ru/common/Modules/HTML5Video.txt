@@ -5,7 +5,7 @@
 		"An error has occured" : "Произошла ошибка?",
 		"Auto-resize" : "Автоматически изменять размер",
 		"Check the property to display the control buttons (play/stop/etc) under the video" : "Выберите эту опцию для отображения кнопок управления (Воспроизведение/ Стоп/ и т. д.) под видео.",
-		"Check this box to automatically put the video on pause at start of frame." : "Выберите эту опцию, чтобы автоматически поставить видео на паузу при старте сцены.",
+		"Check this box to automatically put the video on pause at start of frame." : "Выберите эту опцию, чтобы автоматически поставить видео на паузу при запуске сцены.",
 		"Check this box to automatically resize the video object to the original size of the video at start." : "Выберите эту опцию, чтобы автоматически изменить размер объекта видео на оригинальный, при старте видео.",
 		"Check this box to display the video as another object, allowing active objects to overlap it." : "Выберите эту опцию, чтобы отображать видео как другой объект, что позволит активными объектами перекрывать его.",
 		"Check to have the video loop" : "Отметьте, чтобы видео повторялось",

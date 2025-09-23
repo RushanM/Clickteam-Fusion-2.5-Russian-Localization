@@ -16,7 +16,7 @@
 		"Control Ext." : "Расширение контроллера",
 		"General Properties" : "Основные свойства",
 		"Initial starting angle of the movement." : "Начальный угол движения при запуске.",
-		"Initially moving at start of frame." : "Начальное движение при старте сцены",
+		"Initially moving at start of frame." : "Начальное движение при запуске сцены",
 		"Maximum Spiral Radius" : "Максимальный радиус спирали",
 		"Maximum size of the spiral's radius." : "Максимальный размер радиуса спирали.",
 		"Minimum Spiral Radius" : "Минимальный радиус cпирали",

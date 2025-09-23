@@ -7,7 +7,7 @@
 		"Angle" : "Угол",
 		"Angle : %g degrees" : "Угол: %g градусов",
 		"Blowing at start" : "Дуть при запуске",
-		"Check this box and the fan will blow at the start of the frame" : "Выберите эту опцию, чтобы включить вентилятор при старте сцены",
+		"Check this box and the fan will blow at the start of the frame" : "Выберите эту опцию, чтобы включить вентилятор при запуске сцены",
 		"Direction of the air" : "Направление потока воздуха",
 		"Engine ID" : "Идентификатор движка",
 		"Enter 1 to turn on, 0 to turn off" : "Введите 1, чтобы включить, 0, чтобы выключить",

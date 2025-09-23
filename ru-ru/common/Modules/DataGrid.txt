@@ -93,7 +93,7 @@
 		"Load %0" : "Загрузить %0",
 		"Load ascii file %0 with delimitor %1" : "Загрузить текстовый файл %0 с разделителем %1",
 		"Makes the cells editable by the user" : "Позволяет пользователю редактировать ячейки",
-		"Makes the object visible at start of frame" : "Сделать объект видимым при старте сцены",
+		"Makes the object visible at start of frame" : "Сделать объект видимым при запуске сцены",
 		"My Action Parameter" : "Параметры Моих действий",
 		"My Condition Parameter" : "Параметры Моих условий",
 		"My Expression Parameter" : "Параметры Моих выражений",

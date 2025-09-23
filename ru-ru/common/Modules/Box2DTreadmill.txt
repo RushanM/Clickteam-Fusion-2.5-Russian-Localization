@@ -7,7 +7,7 @@
 		"Advanced" : "Расширенные",
 		"Angle" : "Угол",
 		"Angle : %g degrees" : "Угол : %g градусов",
-		"Check this box to make the treadmill active at start of frame" : "Выберите эту опцию, чтобы беговая дорожка была активна при старте сцены",
+		"Check this box to make the treadmill active at start of frame" : "Выберите эту опцию, чтобы беговая дорожка была активна при запуске сцены",
 		"Direction of the treadmill" : "Направление беговой дорожки",
 		"Engine ID" : "Идентификатор движка",
 		"Enter 1 to turn on, 0 to turn off" : "Введите 1, чтобы включить, 0, чтобы выключить",

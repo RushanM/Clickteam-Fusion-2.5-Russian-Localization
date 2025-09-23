@@ -24,7 +24,7 @@
 		"Lets you play compact disc audio tracks." : "Позволяет воспроизводить треки с компакт диска",
 		"Number of tracks on disk: %i" : "Количество треков на диске: %i",
 		"Open driver at start" : "Открыть драйвер при запуске",
-		"Opening the driver at start of frame makes the object faster during runtime" : "Открытие драйвера при старте сцены, делает объект быстрым во время выполнения приложения",
+		"Opening the driver at start of frame makes the object faster during runtime" : "Открытие драйвера при запуске сцены, делает объект быстрым во время выполнения приложения",
 		"Play track at start" : "Воспроизвести трек при запуске",
 		"Play when minimized" : "Воспроизвести при сворачивании",
 		"Position in current track: %02i:%02i" : "Позиция в текущем треке: %02i:%02i",

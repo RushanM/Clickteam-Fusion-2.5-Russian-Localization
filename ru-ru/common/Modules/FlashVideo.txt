@@ -4,7 +4,7 @@
 	"general" : {
 		"An error has occured" : "Произошла ошибка?",
 		"Auto-resize" : "Автоизменение размера видео",
-		"Check this box to automatically put the video on pause at start of frame." : "Выберите эту опцию, чтобы автоматически поставить видео на паузу при старте сцены.",
+		"Check this box to automatically put the video on pause at start of frame." : "Выберите эту опцию, чтобы автоматически поставить видео на паузу при запуске сцены.",
 		"Check this box to automatically resize the video object to the original size of the video at start." : "Выберите эту опцию, чтобы автоматически изменить размер объекта видео на оригинальный размер при старте видео.",
 		"Check to have the video loop" : "Отметьте, чтобы зациклить видео",
 		"Displays a FLV video file from the Internet" : "Смотреть видеофайл FLV из Интернета",

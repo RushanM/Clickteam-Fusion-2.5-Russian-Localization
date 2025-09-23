@@ -32,7 +32,7 @@
 		"Enter the text to display" : "Введите текст для отображения",
 		"Font color" : "Цвет шрифта",
 		"Left" : "Влево",
-		"Makes the control visible at start of frame" : "Делает объект видимым при старте сцены",
+		"Makes the control visible at start of frame" : "Делает объект видимым при запуске сцены",
 		"Path ellipsis" : "Многоточие перед текстом",
 		"Replaces part of the string by ... in the middle to fit" : "Заменяет часть строки на ... в середине, чтобы подогнать",
 		"Replaces the end of the string by ... to fit" : "Заменяет конец строки на ..., чтобы подогнать",

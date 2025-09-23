@@ -1,0 +1,22 @@
+﻿{
+    "version" : 1,
+    "lang" : 1049,
+    "general" : {
+        "SDL Joystick" : "Джойстик SDL",
+        "Use the SDL2 library's Joystick and GameController APIs to interface with game controllers." : "Позволяет использовать API Joystick и GameController библиотеки SDL2 для взаимодействия с игровыми контроллерами.",
+        "Copyright © 2025 PkR" : "Авторское право © принадлежит PkR с 2025 года",
+        "Devices" : "Устройства",
+        "Device added" : "Устройство добавлено",
+        "Device removed" : "Устройство удалено",
+        "Device is currently connected" : "Устройство в настоящее время подключено",
+        "Device has a GameController mapping" : "Устройство имеет сопоставление GameController",
+        "Device is treated as GameController" : "Устройство рассматривается как GameController",
+        "Device can rumble" : "Устройство может вибрировать",
+        "Device triggers can rumble" : "Триггеры устройства могут вибрировать",
+        "Device has LED" : "Устройство имеет светодиод",
+        "Device has accelerometer" : "Устройство имеет акселерометр",
+        "Device accelerometer is enabled" : "Акселерометр устройства включён",
+        "Device has gyroscope" : "Устройство имеет гироскоп",
+        "Device gyroscope is enabled" : "Гироскоп устройства включён",
+    }
+}

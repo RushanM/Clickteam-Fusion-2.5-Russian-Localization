@@ -14,7 +14,7 @@
 		"01Set Area Origin to (%s, %s)" : "Установить начало области (%0, %1)",
 		"01Set filename to %s" : "Установить название файла %0",
 		"Any files|*.*||" : "Все файлы|*.*||",
-		"At start of frame" : "При старте сцены",
+		"At start of frame" : "При запуске сцены",
 		"BMP files (*.bmp)|*.bmp||" : "Файлы BMP (*.bmp)|*.bmp||",
 		"Cannot change directory to \"%s\"" : "Не удаётся изменить каталог «%s»",
 		"Cannot create temporary directory..." : "Не удаётся создать временный каталог…",

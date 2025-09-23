@@ -59,7 +59,7 @@
 		"Enter the new text" : "Введите новый текст",
 		"Flag" : "Флаг",
 		"Hide on start" : "Скрыть при запуске",
-		"Hides the Combo box at start of frame" : "Скрывать Окно со списком при старте сцены",
+		"Hides the Combo box at start of frame" : "Скрывать Окно со списком при запуске сцены",
 		"If selected, first item will be number one. Number zero if not." : "Если выбран первый элемент он будет номером один. Если нет - номер ноль.",
 		"Index" : "Индекс",
 		"Line number to insert at" : "Номер строки для вставки на",

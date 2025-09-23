@@ -15,7 +15,7 @@
 		"Initial Direction and Speed" : "Начальное направление и скорость",
 		"Initial direction of the object in degrees." : "Начальное направление объекта в градусах.",
 		"Initial speed of the object." : "Начальная скорость объекта.",
-		"Initially moving at start of frame." : "Начальное движение при старте сцены.",
+		"Initially moving at start of frame." : "Начальное движение при запуске сцены.",
 		"Move at Start" : "Начать движение при запуске",
 		"Movement will automatically set the animation direction from current angle." : "Движение будет автоматически менять направление анимации в зависимости от угла движения.",
 		"Name of the extension used to interact with this movement." : "Название расширения, которое используется для взаимодействия с этим движением.",

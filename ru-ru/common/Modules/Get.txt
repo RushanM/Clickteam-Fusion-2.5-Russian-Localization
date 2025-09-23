@@ -2,7 +2,7 @@
 	"version" : 1,
 	"lang" : 1049,
 	"general" : {
-		"Get Object" : "Геттер",
+		"Get Object" : "Запрос данных",
 		"James McLaughlin" : "Джеймс Маклафлин",
 		"Copyright © 2010-2020 Clickteam" : "Авторское право © 2010-2020 Clickteam",
 		"Can retrieve data from a URL via HTTP GET or POST." : "Позволяет получать данные из URL через HTTP-методы GET и POST.",

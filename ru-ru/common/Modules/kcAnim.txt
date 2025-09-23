@@ -35,7 +35,7 @@
 		"Filename" : "Название файла",
 		"First Pixel" : "Первый пиксель",
 		"Hide at start" : "Скрыть при запуске",
-		"Hides the animation when the frame stars" : "Скрывает анимацию при старте сцены",
+		"Hides the animation when the frame stars" : "Скрывает анимацию при запуске сцены",
 		"Invalid format!" : "Неверный формат!",
 		"Loop" : "Цикл",
 		"Make Invisible" : "Сделать невидимым",

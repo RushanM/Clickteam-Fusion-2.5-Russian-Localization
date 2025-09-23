@@ -4,7 +4,7 @@
     "general": {
         "00Disable": "Отключить",
         "00Enable": "Включить",
-        "00Get picture file from selector": "Получить файл изображения из селектора",
+        "00Get picture file from selector": "Получить файл картинки из селектора",
         "00Set elliptical shape": "Установить эллиптическую форму",
         "00Set standard shape": "Установить стандартную форму",
         "01Set rounded rectangle shape (%s,%s)": "Установить округлую форму прямоугольника (%0, %1)",
@@ -30,9 +30,9 @@
         "Images": "Изображения",
         "Object name": "Название объекта",
         "Options": "Настройки",
-        "Picture File": "Файл изображения",
-        "Pictures|": "Изображения|",
-        "Please select a picture": "Пожалуйста выберите изображение",
+        "Picture File": "Файл картинки",
+        "Pictures|": "Картинки|",
+        "Please select a picture": "Пожалуйста, выберите картинку",
         "Rounded Rectangle": "Прямоугольник с закругленными углами",
         "Set shape from Active object %0": "Установить форму курсора из объекта %0",
         "Standard": "Стандарт",
@@ -45,19 +45,19 @@
     "menu_20000": {
         "&Disable": "Отключить",
         "E&nable": "Включить",
-        "Get shape picture &file from selector": "Получить форму файла изображения из селектора",
+        "Get shape picture &file from selector": "Получить форму файла картинки из селектора",
         "Set &elliptical shape": "Установить эллиптическую форму",
         "Set &image shape": "Установить форму изображения",
         "Set &rounded rectangle shape": "Установить округлую форму прямоугольника",
         "Set &standard shape": "Установить стандартную форму",
-        "Set shape from &picture file": "Установить форму из файла изображения",
+        "Set shape from &picture file": "Установить форму из файла картинки",
         "Set shape from Active object": "Установить форму из актива"
     },
     "menu_20002": {
         "Current image number": "Номер текущего изображения",
         "Height": "Высота",
         "Number of images": "Количество изображений",
-        "Picture &filename": "Название файла изображения",
+        "Picture &filename": "Название файла картинки",
         "Width": "Ширина"
     }
 }

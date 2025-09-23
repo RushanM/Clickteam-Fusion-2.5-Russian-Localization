@@ -61,7 +61,7 @@
 		"&Display video under frame editor" : "Отображать видео под редактором кадров",
 		"&Help" : "Помощь",
 		"&Looping" : "Цикл",
-		"&Play QuickTime at start of frame" : "Воспроизвести QuickTime при старте сцены",
+		"&Play QuickTime at start of frame" : "Воспроизвести QuickTime при запуске сцены",
 		"&Use default size" : "Использовать размер по умолчанию",
 		"&Zoom X2" : "Увеличить Х2",
 		"Cancel" : "Отмена",

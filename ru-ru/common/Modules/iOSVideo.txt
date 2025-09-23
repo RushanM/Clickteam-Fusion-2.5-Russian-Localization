@@ -13,7 +13,7 @@
 		"Begin seeking forward" : "Начать поиск вперёд",
 		"Check to display an Air Play button in the movie player" : "Выберите эту опцию, чтобы отобразить кнопку Air Play в плеере",
 		"Check to display the movie in full screen" : "Выберите эту опцию, чтобы отобразить видео в полноэкранном режиме",
-		"Check to make the movie play at start of frame" : "Выберите эту опцию, чтобы начать воспроизведение видео при старте сцены",
+		"Check to make the movie play at start of frame" : "Выберите эту опцию, чтобы начать воспроизведение видео при запуске сцены",
 		"Check to repeat the movie when it reaches the end" : "Выберите эту опцию, чтобы повторить видео по его окончанию",
 		"Choose how to scale the movie" : "Выберите, как масштабировать видео",
 		"Choose what kind of controls are available in the movie player" : "Выберите какие элементы управления будут доступны в плеере",
