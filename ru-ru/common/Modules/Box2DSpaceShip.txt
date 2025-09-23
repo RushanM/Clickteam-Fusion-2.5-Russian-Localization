@@ -77,7 +77,7 @@
 		"Thrust power" : "Мощность тяги",
 		"Thruster" : "Тяга",
 		"Type" : "Тип",
-		"Type : Spaceship" : "Тип : Космический корабль",
+		"Type : Spaceship" : "Тип: космический корабль",
 		"Up" : "Вверх",
 		"Upper angle" : "Макс. угол",
 		"Upper limit" : "Макс. предел"

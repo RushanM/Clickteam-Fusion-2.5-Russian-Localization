@@ -9,7 +9,7 @@
 		"%o: Object is standing on ground" : "%o: объект стоит на земле",
 		"%o: Test for jump through platform overlap" : "%o: проверка перекрытия платформы прыжком через неё",
 		"%o: Test for obstacle overlap" : "%o: проверка перекрытия препятствия",
-		"A powerful alternative to MMF's built-in platform movement. Easy to use and provides you with everything you need to create functional, flexible, custom platform games." : "Мощная альтернатива встроенному в MMF движению платформы. Прост в использовании и предоставляет вам всё, что нужно, чтобы создавать функциональные, гибкие, настраиваемые игры-платформеры.",
+		"A powerful alternative to MMF's built-in platform movement. Easy to use and provides you with everything you need to create functional, flexible, custom platform games." : "Мощная альтернатива встроенному в Multimedia Fusion движению по платформам. Прост в использовании и предоставляет вам всё, что нужно, чтобы создавать функциональные, гибкие, настраиваемые игры-платформеры.",
 		"Additional X velocity" : "Добавляемую скорость X",
 		"Additional Y velocity" : "Добавляемую скорость Y",
 		"Downhill slope correction (in pixels)" : "Поправка склона (в пикселях)",

@@ -2338,7 +2338,7 @@
 		"Pick a random object in a zone" : "Выбрать объект в зоне случайным образом",
 		"Pick all active objects in a zone" : "Выбрать все объекты «актив» в зоне",
 		"Pick all objects in a zone" : "Выбрать все объекты «актив»",
-		"Pick all objects in line (%0, %1) to (%2, %3)" : "Выбрать все объекты на линии (%0, %1) - (%2, %3)",
+		"Pick all objects in line (%0, %1) to (%2, %3)" : "Выбрать все объекты на линии %0 и %1 — %2 и %3",
 		"Pick all objects on a line" : "Выбрать все объекты на линии",
 		"Pick an active object at random" : "Выбрать объект «актив» случайным образом",
 		"Pick an object at random" : "Выбрать объект случайным образом",

@@ -38,7 +38,7 @@
 		"10%s: Music track present" : "%o: Это музыкальный трек",
 		"10%s: Sound track enable" : "%o: Звуковой трек включён",
 		"10%s: Sound track present" : "%o: Это звуковой трек",
-		"10%s: Text track enable" : "%o: Текстовый трек включён",
+		"10%s: Text track enable" : "%o: текстовый трек включён",
 		"10%s: Text track present" : "%o: Это текстовый трек",
 		"10%s: Video track enable" : "%o: Видео трек включён",
 		"10%s: Video track present" : "%o: Это видео трек",

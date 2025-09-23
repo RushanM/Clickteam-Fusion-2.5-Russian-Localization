@@ -7,7 +7,7 @@
         "00Get picture file from selector": "Получить файл картинки из селектора",
         "00Set elliptical shape": "Установить эллиптическую форму",
         "00Set standard shape": "Установить стандартную форму",
-        "01Set rounded rectangle shape (%s,%s)": "Установить округлую форму прямоугольника (%0, %1)",
+        "01Set rounded rectangle shape (%s,%s)": "Установить округлую форму прямоугольника на %0 и %1",
         "01Set shape from %s": "Установить форму из %0",
         "01Set shape from image %s": "Установить форму из изображения %0",
         "Active object": "Активный объект",

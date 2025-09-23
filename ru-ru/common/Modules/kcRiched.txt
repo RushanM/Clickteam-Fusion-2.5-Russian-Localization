@@ -98,7 +98,7 @@
 		"10%sParagraph is aligned on the left" : "%o: Абзац выровнен по левому краю",
 		"10%sParagraph is aligned on the right" : "%o: Абзац выровнен по правому краю",
 		"10%sParagraph is centered" : "%o: Абзац по центру",
-		"10%sText is available in the clipboard" : "%o: Текст доступен в буфере обмена",
+		"10%sText is available in the clipboard" : "%o: текст доступен в буфере обмена",
 		"11%s line %s is entirely visible" : "%o: строка %0 полностью видна",
 		"11%s line %s is visible" : "%o: строка %0 видна",
 		"11%s: %s clicked" : "%o: %0 нажал",

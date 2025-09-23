@@ -7,7 +7,7 @@
 		"%o : Direction of current point %0" : "%o: направление текущей точки %0",
 		"%o : Direction of point %0 %1" : "%o : Направление точки %0 %1",
 		"%o : End of path reached" : "%o : Достигнут конец пути",
-		"%o : Number of movements in the path %0" : "%o : Количество движений в пути %0",
+		"%o : Number of movements in the path %0" : "%o: количество движений в пути %0",
 		"%o : Tile at %0 , %1 is impassable" : "%o : Плитка %0,%1 непроходима",
 		"%o : Total cost from beginning to current point is %0" : "%o : Общая стоимость от начала до текущей точки %0",
 		"%o : Total cost from beginning to point %0 is %1" : "%o : Общая стоимость от начала до точки %0 %1",

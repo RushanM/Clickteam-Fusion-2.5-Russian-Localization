@@ -20,7 +20,7 @@
 		"Define the new detection zone" : "Новая зона обнаружения",
 		"Display a close box" : "Показать иконку закрытия ",
 		"Display timer" : "Показать таймер",
-		"Display tooltip at (%0, %1)" : "Показать подсказку (%0, %1)",
+		"Display tooltip at (%0, %1)" : "Показать подсказку %0 и %1",
 		"Enter X coordinate of tooltip" : "Введите X координаты подсказки",
 		"Enter Y coordinate of tooltip" : "Введите Y координаты подсказки",
 		"Enter the text to be displayed in the tooltip" : "Введите текст который будет отображаться в подсказке",

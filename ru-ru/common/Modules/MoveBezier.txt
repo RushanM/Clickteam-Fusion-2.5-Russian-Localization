@@ -3,7 +3,7 @@
 	"lang" : 1049,
 	"general" : {
 		"%o: An object moved" : "%o: Объект движется",
-		"%o: Current movement in %0's queue is paused" : "%o: Текущее движение в: %0 очереди на паузе",
+		"%o: Current movement in %0's queue is paused" : "%o: текущее движение в: %0 очереди на паузе",
 		"%o: Movement at %1 in %0's queue is set to Pause at End mode" : "%o: Движение: %1 в %0 очереди установлено на паузу Режима завершения",
 		"%o: Movement at %1 in %0's queue is set to Reverse mode" : "%o: Движение: %1 в %0 очереди установлено на Режим реверса",
 		"(0 = off, 1 = on)" : "(0:Выкл, 1:Вкл)",

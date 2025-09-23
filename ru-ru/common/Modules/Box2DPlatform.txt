@@ -52,7 +52,7 @@
 		"Next strength" : "Следующая сила",
 		"No jump" : "Нет прыжков",
 		"Object" : "Объект",
-		"Physics - Platform movement" : "Физика: движение платформы",
+		"Physics - Platform movement" : "Физика: движение по платформам",
 		"Please drop a 'Physics Engine' object in your frame." : "Поместите объект «Физика: движок» на сцену.",
 		"Please enter the acceleration factor of the object (0 = no acceleration, maximum = immediate start)" : "Введите коэффициент ускорения объекта (0 = нет ускорения, максимум = немедленный запуск)",
 		"Please enter the deceleration factor of the object (0 = no deceleration, maximum =immediate stop)" : "Введите коэффициент торможения объекта (0 = нет замедления, максимум = немедленная остановка)",
