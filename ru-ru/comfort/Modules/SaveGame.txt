@@ -25,7 +25,7 @@
 		"Setup %0" : "Установить %0",
 		"String name" : "Название строки",
 		"String" : "Строка",
-		"The Save Game Object was made for saving and loading information of Active Objects to memory and/or to disk. It lets you specify what you want to save." : "Объект «Сохранение игры» был создан для сохранения и загрузки информации об объекта «актив» в память и/или на диск. Он позволяет вам указать, что вы хотите сохранить.",
+		"The Save Game Object was made for saving and loading information of Active Objects to memory and/or to disk. It lets you specify what you want to save." : "Объект «Сохранение игры» был создан для сохранения и загрузки информации об активе в память и/или на диск. Он позволяет вам указать, что вы хотите сохранить.",
 		"Value name" : "Значение названия",
 		"Value" : "Значение",
 	},

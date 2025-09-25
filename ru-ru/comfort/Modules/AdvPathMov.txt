@@ -137,7 +137,7 @@
 		"&Help" : "Помощь",
 		"50 = slow  100 = normal 200 = fast" : "50Медленно 100Норм.     200Быстро",
 		"Advanced Path Movement V1\nCreated by David C ( aka. Alien )\n\net_jazz2@hotmail.com\n\nSpecial thanks to Fodo" : "Расширенное движение по траектории\nРасширение создал David C (AKA Alien)\n\ net_jazz2@hotmail.com\n\nОсобая благодарность Fodo",
-		"Auto Change Direction (only Active Object Direction)" : "Автосмена направления (только объекта «актив»)",
+		"Auto Change Direction (only Active Object Direction)" : "Автосмена направления (только актива)",
 		"Auto Change X" : "Автосмена X",
 		"Auto Change Y" : "Автосмена Y",
 		"Autostep" : "Автошаг",
